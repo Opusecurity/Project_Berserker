@@ -1,0 +1,7 @@
+net.probe on
+set arp.spoof.fullduplex true
+set net.sniff.local true
+set net.sniff.http.request.body true
+set events.stream.output detailed
+net.sniff on
+arp.spoof on

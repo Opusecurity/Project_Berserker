@@ -1,0 +1,300 @@
+[1mbettercap v2.33.0[0m [2m(built for linux amd64 with go1.22.6)[0m [type '[1mhelp[0m' for a list of commands]
+
+[19:36:29] [[32msys.log[0m] [[97m[42minf[0m] gateway monitor started ...
+[19:36:29] [[32msys.log[0m] [[97m[42minf[0m] [104m[30mnet.probe[0m[0m starting net.recon as a requirement for net.probe
+[19:36:29] [[32msys.log[0m] [[97m[42minf[0m] [104m[30mnet.probe[0m[0m probing 256 addresses on 192.168.1.0/24
+[19:36:29] [[32msys.log[0m] [[97m[42minf[0m] [104m[30mnet.probe[0m[0m probing 256 addresses on 192.168.1.0/24
+[19:36:29] [[32mendpoint.new[0m] endpoint [1m192.168.1.100[0m[2m[0m detected as [32m14:85:7f:7e:06:1c[0m[2m (Intel Corporate)[0m.
+[19:36:29] [[32msys.log[0m] [[97m[43mwar[0m] [104m[30marp.spoof[0m[0m could not find spoof targets
+[19:36:29] [[32msys.log[0m] [[97m[42minf[0m] [104m[30marp.spoof[0m[0m arp spoofer started, probing 1 targets.
+[19:36:29] [[32msys.log[0m] [[97m[43mwar[0m] [104m[30marp.spoof[0m[0m full duplex spoofing enabled, if the router has ARP spoofing mechanisms, the attack will fail.
+[19:36:29] [[32mendpoint.new[0m] endpoint [1m192.168.1.105[0m[2m[0m detected as [32m40:ae:30:9b:24:c1[0m[2m (TP-LINK CORPORATION PTE. LTD.)[0m.
+[19:36:29] [[32mnet.sniff.dns[0m] [100m[97mdns[0m 8.8.8.8 > [2mlocal[0m : [33m100.1.168.192.in-addr.arpa[0m is [2m[31mNon-Existent Domain[0m[0m
+[19:36:29] [[32mnet.sniff.dns[0m] [100m[97mdns[0m 8.8.8.8 > [2mlocal[0m : [33m105.1.168.192.in-addr.arpa[0m is [2m[31mNon-Existent Domain[0m[0m
+[19:36:30] [[32msys.log[0m] [[97m[43mwar[0m] [104m[30marp.spoof[0m[0m could not find spoof targets
+[19:36:30] [[32mendpoint.new[0m] endpoint [1m192.168.1.102[0m[2m (WORKGROUP)[0m detected as [32me0:c2:64:94:67:45[0m[2m (Intel Corporate)[0m.
+[19:36:30] [[32mnet.sniff.dns[0m] [100m[97mdns[0m 8.8.8.8 > [2mlocal[0m : [33m102.1.168.192.in-addr.arpa[0m is [2m[31mNon-Existent Domain[0m[0m
+[19:36:31] [[32mendpoint.new[0m] endpoint [1m192.168.1.101[0m[2m[0m detected as [32m96:7f:0b:91:63:49[0m[2m[0m.
+[19:36:31] [[32mnet.sniff.dns[0m] [100m[97mdns[0m 8.8.8.8 > [2mlocal[0m : [33m101.1.168.192.in-addr.arpa[0m is [2m[31mNon-Existent Domain[0m[0m
+[19:36:33] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33me8652.dscx.akamaiedge.net[0m is [2m2.20.77.60[0m
+[19:36:33] [[32mnet.sniff.http.response[0m] [41m[30mhttp[0m 2.20.77.60:80 [1m200 OK[0m -> 192.168.1.100 ([2m734 B[0m [33mapplication/pkix-crl[0m)
+[19:36:33] [[32mnet.sniff.http.request[0m] [41m[30mhttp[0m 192.168.1.100 [104m[30mGET[0m [33mx1.c.lencr.org[0m/
+[19:36:33] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mpki-goog.l.google.com[0m is [2m172.217.17.131[0m
+[19:36:33] [[32mnet.sniff.http.request[0m] [41m[30mhttp[0m 192.168.1.100 [104m[30mGET[0m [33mc.pki.goog[0m/r/gsr1.crl
+[19:36:33] [[32mnet.sniff.http.response[0m] [41m[30mhttp[0m 172.217.17.131:80 [1m304 Not Modified[0m -> 192.168.1.100 ([2m0 B[0m [33m?[0m)
+[19:36:33] [[32mnet.sniff.http.request[0m] [41m[30mhttp[0m 192.168.1.100 [104m[30mGET[0m [33mc.pki.goog[0m/r/r4.crl
+[19:36:33] [[32mnet.sniff.http.response[0m] [41m[30mhttp[0m 172.217.17.131:80 [1m304 Not Modified[0m -> 192.168.1.100 ([2m0 B[0m [33m?[0m)
+[19:36:33] [[32mnet.sniff.http.request[0m] [41m[30mhttp[0m 192.168.1.100 [104m[30mGET[0m [33mc.pki.goog[0m/r/gsr4.crl
+[19:36:33] [[32mnet.sniff.http.response[0m] [41m[30mhttp[0m 172.217.17.131:80 [1m304 Not Modified[0m -> 192.168.1.100 ([2m0 B[0m [33m?[0m)
+[19:36:34] [[32mnet.sniff.http.request[0m] [41m[30mhttp[0m WORKGROUP [104m[30mPOST[0m [33mtestphp.vulnweb.com[0m/userinfo.php
+
+[1mPOST[0m /userinfo.php [2mHTTP/1.1[0m
+[34mHost[0m: [33mtestphp.vulnweb.com[0m
+[34mAccept-Language[0m: [33mtr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7[0m
+[34mCookie[0m: [33mlogin=test%2Ftest[0m
+[34mOrigin[0m: [33mhttp://testphp.vulnweb.com[0m
+[34mContent-Type[0m: [33mapplication/x-www-form-urlencoded[0m
+[34mUpgrade-Insecure-Requests[0m: [33m1[0m
+[34mUser-Agent[0m: [33mMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36[0m
+[34mAccept[0m: [33mtext/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7[0m
+[34mAccept-Encoding[0m: [33mgzip, deflate[0m
+[34mConnection[0m: [33mkeep-alive[0m
+[34mContent-Length[0m: [33m114[0m
+[34mCache-Control[0m: [33mmax-age=0[0m
+[34mReferer[0m: [33mhttp://testphp.vulnweb.com/userinfo.php[0m
+
+[32murname[0m=[1m[31mJohn Smith[0m[0m&[32mucc[0m=[1m[31m1234-5678-2300-9000[0m[0m&[32muemail[0m=[1m[31memail@email.com[0m[0m&[32muphone[0m=[1m[31m2323345[0m[0m&[32muaddress[0m=[1m[31m21 street[0m[0m&[32mupdate[0m=[1m[31mupdate[0m[0m
+
+[19:36:34] [[32mnet.sniff.http.request[0m] [41m[30mhttp[0m [2mlocal[0m [104m[30mPOST[0m [33mtestphp.vulnweb.com[0m/userinfo.php
+
+[1mPOST[0m /userinfo.php [2mHTTP/1.1[0m
+[34mHost[0m: [33mtestphp.vulnweb.com[0m
+[34mCache-Control[0m: [33mmax-age=0[0m
+[34mContent-Type[0m: [33mapplication/x-www-form-urlencoded[0m
+[34mAccept-Encoding[0m: [33mgzip, deflate[0m
+[34mAccept-Language[0m: [33mtr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7[0m
+[34mCookie[0m: [33mlogin=test%2Ftest[0m
+[34mConnection[0m: [33mkeep-alive[0m
+[34mUpgrade-Insecure-Requests[0m: [33m1[0m
+[34mUser-Agent[0m: [33mMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36[0m
+[34mAccept[0m: [33mtext/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7[0m
+[34mReferer[0m: [33mhttp://testphp.vulnweb.com/userinfo.php[0m
+[34mContent-Length[0m: [33m114[0m
+[34mOrigin[0m: [33mhttp://testphp.vulnweb.com[0m
+
+[32murname[0m=[1m[31mJohn Smith[0m[0m&[32mucc[0m=[1m[31m1234-5678-2300-9000[0m[0m&[32muemail[0m=[1m[31memail@email.com[0m[0m&[32muphone[0m=[1m[31m2323345[0m[0m&[32muaddress[0m=[1m[31m21 street[0m[0m&[32mupdate[0m=[1m[31mupdate[0m[0m
+
+[19:36:34] [[32mnet.sniff.dns[0m] [100m[97mdns[0m 8.8.8.8 > [2mlocal[0m : [33m1.1.168.192.in-addr.arpa[0m is [2m[31mNon-Existent Domain[0m[0m
+[19:36:34] [[32mnet.sniff.http.response[0m] [41m[30mhttp[0m 44.228.249.3:80 [1m200 OK[0m -> [2mlocal[0m ([2m2.5 kB[0m [33mtext/html; charset=UTF-8[0m)
+[19:36:34] [[32mnet.sniff.http.response[0m] [41m[30mhttp[0m 44.228.249.3:80 [1m200 OK[0m -> WORKGROUP ([2m2.5 kB[0m [33mtext/html; charset=UTF-8[0m)
+[19:36:38] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mkick.com[0m is [2m104.18.40.29, 172.64.147.227[0m
+[19:36:39] [[32mnet.sniff.dns[0m] [100m[97mdns[0m 8.8.8.8 > [2mlocal[0m : [33m1.1.168.192.in-addr.arpa[0m is [2m[31mNon-Existent Domain[0m[0m
+[19:36:40] [[32mendpoint.new[0m] endpoint [1m192.168.1.103[0m[2m[0m detected as [32m32:fe:6d:47:31:d9[0m[2m[0m.
+[19:36:40] [[32mnet.sniff.dns[0m] [100m[97mdns[0m 8.8.8.8 > [2mlocal[0m : [33m103.1.168.192.in-addr.arpa[0m is [2m[31mNon-Existent Domain[0m[0m
+[19:36:41] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33meuc12.playlist.live-video.net[0m is [2m3.124.112.216, 18.158.168.148, 3.77.246.222, 52.28.142.242, 3.121.84.212, 3.124.125.13[0m
+[19:36:43] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mwww.linkedin.com.cdn.cloudflare.net[0m is [2m172.64.146.215, 104.18.41.41[0m
+[19:36:43] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33midentitytoolkit.googleapis.com[0m is [2m142.251.140.42, 142.250.187.170, 172.217.17.106, 172.217.20.74, 142.250.187.106, 142.250.184.138, 216.58.212.10, 216.58.212.42, 142.251.140.10, 216.58.213.106, 142.250.187.138, 172.217.17.138, 216.58.214.138, 172.217.169.202, 142.251.141.42, 142.251.140.74[0m
+[19:36:43] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mogads-pa.clients6.google.com[0m is [2m142.251.140.74[0m
+[19:36:44] [[32mnet.sniff.dns[0m] [100m[97mdns[0m 8.8.8.8 > [2mlocal[0m : [33m1.1.168.192.in-addr.arpa[0m is [2m[31mNon-Existent Domain[0m[0m
+[19:36:44] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mplay.google.com[0m is [2m142.250.187.142[0m
+[19:36:45] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mx.com[0m is [2m172.66.0.227[0m
+[19:36:45] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mabs-zero.twimg.com[0m is [2m104.244.43.131[0m
+[19:36:45] [[32mnet.sniff.https[0m] [43m[97msni[0m 192.168.1.100 > [33mhttps://api.twitter.com[0m
+[19:36:45] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mtwimg.twitter.map.fastly.net[0m is [2m151.101.204.159[0m
+[19:36:45] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mapi.twitter.com.cdn.cloudflare.net[0m is [2m162.159.140.229, 172.66.0.227[0m
+[19:36:45] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33ms.twitter.com[0m is [2m172.66.0.227[0m
+[19:36:45] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mdualstack.video.twitter.map.fastly.net[0m is [2m199.232.188.158[0m
+[19:36:45] [[32mnet.sniff.https[0m] [43m[97msni[0m 192.168.1.100 > [33mhttps://t.co[0m
+[19:36:45] [[32mnet.sniff.https[0m] [43m[97msni[0m 192.168.1.100 > [33mhttps://analytics.twitter.com[0m
+[19:36:45] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mdualstack.twimg.twitter.map.fastly.net[0m is [2m151.101.204.159[0m
+[19:36:45] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mapi.x.com.cdn.cloudflare.net[0m is [2m172.66.0.227, 162.159.140.229[0m
+[19:36:45] [[32mnet.sniff.https[0m] [43m[97msni[0m 192.168.1.100 > [33mhttps://abs.twimg.com[0m
+[19:36:46] [[32mnet.sniff.https[0m] [43m[97msni[0m 192.168.1.100 > [33mhttps://video.twimg.com[0m
+[19:36:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mz-p42-instagram.c10r.instagram.com[0m is [2m57.144.126.34[0m
+[19:36:48] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mscontent.cdninstagram.com[0m is [2m57.144.126.192[0m
+[19:36:49] [[32mnet.sniff.dns[0m] [100m[97mdns[0m 8.8.8.8 > [2mlocal[0m : [33m1.1.168.192.in-addr.arpa[0m is [2m[31mNon-Existent Domain[0m[0m
+[19:36:49] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mscontent-ssn1-1.cdninstagram.com[0m is [2m157.240.215.63[0m
+[19:36:49] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33minstagram.c10r.instagram.com[0m is [2m57.144.126.192[0m
+[19:36:50] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mdgw.c10r.facebook.com[0m is [2m57.144.126.145[0m
+[19:36:50] [[32mnet.sniff.https[0m] [43m[97msni[0m 192.168.1.100 > [33mhttps://scontent-ssn1-1.cdninstagram.com[0m
+[19:36:51] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33minstagram.c10r.facebook.com[0m is [2m57.144.126.192[0m
+[19:36:51] [[32mnet.sniff.https[0m] [43m[97msni[0m 192.168.1.100 > [33mhttps://edge-chat.instagram.com[0m
+[19:36:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mscontent.cdninstagram.com[0m is [2m57.144.126.192[0m
+[19:36:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mstar.c10r.facebook.com[0m is [2m57.144.126.141[0m
+[19:36:52] [[32mnet.sniff.https[0m] [43m[97msni[0m 192.168.1.100 > [33mhttps://edge-chat.facebook.com[0m
+[19:36:52] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33minstagram.c10r.facebook.com[0m is [2m57.144.126.192[0m
+[19:36:53] [[32mnet.sniff.https[0m] [43m[97msni[0m 192.168.1.100 > [33mhttps://web-chat-e2ee.instagram.com[0m
+[19:36:53] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mstar-mini.c10r.facebook.com[0m is [2m57.144.126.1[0m
+[19:36:53] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mscontent.xx.fbcdn.net[0m is [2m57.144.126.128[0m
+[19:36:53] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mvideo.xx.fbcdn.net[0m is [2m57.144.126.129[0m
+[19:36:54] [[32mnet.sniff.dns[0m] [100m[97mdns[0m 8.8.8.8 > [2mlocal[0m : [33m1.1.168.192.in-addr.arpa[0m is [2m[31mNon-Existent Domain[0m[0m
+[19:36:54] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mln-0002.ln-msedge.net[0m is [2m150.171.22.12[0m
+[19:36:54] [[32mnet.sniff.https[0m] [43m[97msni[0m 192.168.1.100 > [33mhttps://px.ads.linkedin.com[0m
+[19:36:55] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 192.168.1.100 : [2mPTR[0m query for [33m_spotify-connect._tcp.local[0m
+[19:36:55] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::aca4:8c93:f00c:f032 : [2mPTR[0m query for [33m_spotify-connect._tcp.local[0m
+[19:36:55] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 192.168.1.105 : [2mPTR[0m query for [33m_spotify-connect._tcp.local[0m
+[19:36:55] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::c693:575c:a8b3:ed6e : [2mPTR[0m query for [33m_spotify-connect._tcp.local[0m
+[19:36:55] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mperimeterx.map.fastly.net[0m is [2m146.75.2.133[0m
+[19:36:55] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mdfp-greenid-prod-pme.westeurope.cloudapp.azure.com[0m is [2m20.31.161.73[0m
+[19:36:55] [[32mnet.sniff.https[0m] [43m[97msni[0m 192.168.1.100 > [33mhttps://li.protechts.net[0m
+[19:36:55] [[32mnet.sniff.https[0m] [43m[97msni[0m 192.168.1.100 > [33mhttps://merchantpool1.linkedin.com[0m
+[19:36:55] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mperimeterx.map.fastly.net[0m is [2m146.75.2.133[0m
+[19:36:55] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33mtzm.protechts.net[0m is [2m34.36.73.246[0m
+[19:36:55] [[32mnet.sniff.https[0m] [43m[97msni[0m 192.168.1.100 > [33mhttps://tzm.protechts.net[0m
+[19:36:55] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 192.168.1.100 : [33ma1916.dscg2.akamai.net[0m is [2m159.146.119.64, 159.146.119.67[0m
+[19:36:55] [[32mnet.sniff.https[0m] [43m[97msni[0m 192.168.1.100 > [33mhttps://collector-pxdojv695v.protechts.net[0m
+[19:36:55] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:36:55] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::aca4:8c93:f00c:f032 : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:36:55] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mstun.l.google.com[0m is [2m74.125.250.129[0m
+[19:36:55] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:36:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mstun.l.google.com[0m is [2m2001:4860:4864:5:8000::1[0m
+[19:36:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mstun.l.google.com[0m is [2m2001:4860:4864:5:8000::1[0m
+[19:36:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mdcs-public-edge-irl1-150041215.eu-west-1.elb.amazonaws.com[0m is [2m52.50.250.11, 54.194.197.171, 52.16.225.71, 63.32.37.237, 52.209.79.96, 52.18.155.79, 54.170.227.14, 34.241.254.55[0m
+[19:36:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mtrkn.us[0m is [2m2.20.134.88, 2.20.134.105[0m
+[19:36:56] [[32mnet.sniff.https[0m] [43m[97msni[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local > [33mhttps://lnkd.demdex.net[0m
+[19:36:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mdcs-public-edge-irl1-150041215.eu-west-1.elb.amazonaws.com[0m is [2m52.16.225.71, 52.209.79.96, 52.49.213.153, 52.50.250.11, 34.255.224.105, 34.240.88.32, 52.17.251.130, 34.241.254.55[0m
+[19:36:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mwww.google.com[0m is [2m142.251.140.36[0m
+[19:36:56] [[32mnet.sniff.https[0m] [43m[97msni[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local > [33mhttps://lnkd.demdex.net[0m
+[19:36:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mwww.googleadservices.com[0m is [2m216.58.212.34[0m
+[19:36:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mgoogleads.g.doubleclick.net[0m is [2m142.250.184.130[0m
+[19:36:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mwww.googleadservices.com[0m is [2m142.251.140.34[0m
+[19:36:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mgoogleads.g.doubleclick.net[0m is [2m216.58.212.34[0m
+[19:36:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mwww.google.com[0m is [2m172.217.17.132[0m
+[19:36:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mwww.google.com.tr[0m is [2m142.251.141.35[0m
+[19:36:56] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mwww.google.com.tr[0m is [2m216.58.213.99[0m
+[19:36:56] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:36:56] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::aca4:8c93:f00c:f032 : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:36:56] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:36:57] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mgoogle.com[0m is [2m172.217.17.142[0m
+[19:36:57] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:36:57] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::aca4:8c93:f00c:f032 : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:36:57] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:36:57] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:36:58] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mclients.l.google.com[0m is [2m216.58.212.14[0m
+[19:36:58] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33ma1916.dscg2.akamai.net[0m is [2m159.146.119.67, 159.146.119.64[0m
+[19:36:58] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:36:58] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:36:58] [[32mnet.sniff.https[0m] [43m[97msni[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local > [33mhttps://media.licdn.com[0m
+[19:36:58] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::aca4:8c93:f00c:f032 : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:36:58] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:36:59] [[32mnet.sniff.dns[0m] [100m[97mdns[0m 8.8.8.8 > [2mlocal[0m : [33m1.1.168.192.in-addr.arpa[0m is [2m[31mNon-Existent Domain[0m[0m
+[19:37:00] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:00] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:00] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::aca4:8c93:f00c:f032 : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:00] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:00] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:00] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::aca4:8c93:f00c:f032 : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:00] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:00] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:00] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:00] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:02] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:02] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:02] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:02] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:02] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:02] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:03] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mi2-oyayllaorecnmvgprywbqzeywidrep.init.cedexis-radar.net[0m is [2m104.225.98.129[0m
+[19:37:04] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:04] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:04] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:04] [[32mnet.sniff.dns[0m] [100m[97mdns[0m 8.8.8.8 > [2mlocal[0m : [33m1.1.168.192.in-addr.arpa[0m is [2m[31mNon-Existent Domain[0m[0m
+[19:37:04] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:04] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:04] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:05] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mbeacons-handoff.gcp.gvt2.com[0m is [2m142.251.140.3[0m
+[19:37:05] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:05] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:05] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:06] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:06] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:06] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:07] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:07] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:07] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:08] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mlearn-prod-5f212ee2dd8c7-551300090.eu-central-1.elb.amazonaws.com[0m is [2m3.66.7.177, 18.158.23.178, 3.122.83.233[0m
+[19:37:08] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:08] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:08] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:09] [[32mnet.sniff.dns[0m] [100m[97mdns[0m 8.8.8.8 > [2mlocal[0m : [33m1.1.168.192.in-addr.arpa[0m is [2m[31mNon-Existent Domain[0m[0m
+[19:37:09] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:09] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:09] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:10] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:10] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:10] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:11] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33msignaler-pa.clients6.google.com[0m is [2m216.58.212.10[0m
+[19:37:12] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:12] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:12] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:12] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:12] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:12] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:13] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [2mUnknown[0m query for [33mSemihOne._dosvc._tcp.local[0m
+[19:37:13] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::aca4:8c93:f00c:f032 : [2mUnknown[0m query for [33mSemihOne._dosvc._tcp.local[0m
+[19:37:13] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::c693:575c:a8b3:ed6e : [2mUnknown[0m query for [33mSemihOne._dosvc._tcp.local[0m
+[19:37:13] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 192.168.1.105 : [2mUnknown[0m query for [33mSemihOne._dosvc._tcp.local[0m
+[19:37:13] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [2mUnknown[0m query for [33mSemihOne._dosvc._tcp.local[0m
+[19:37:13] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::aca4:8c93:f00c:f032 : [2mUnknown[0m query for [33mSemihOne._dosvc._tcp.local[0m
+[19:37:13] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::c693:575c:a8b3:ed6e : [2mUnknown[0m query for [33mSemihOne._dosvc._tcp.local[0m
+[19:37:13] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::aca4:8c93:f00c:f032 : [2mUnknown[0m query for [33mSemihOne._dosvc._tcp.local[0m
+[19:37:13] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 192.168.1.105 : [2mUnknown[0m query for [33mSemihOne._dosvc._tcp.local[0m
+[19:37:13] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::c693:575c:a8b3:ed6e : [2mUnknown[0m query for [33mSemihOne._dosvc._tcp.local[0m
+[19:37:13] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [2mUnknown[0m query for [33mSemihOne._dosvc._tcp.local[0m
+[19:37:13] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mSemihOne.local[0m is [2m192.168.1.100, fe80::aca4:8c93:f00c:f032[0m
+[19:37:13] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mSemihOne.local[0m is [2m192.168.1.100, fe80::aca4:8c93:f00c:f032[0m
+[19:37:13] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::aca4:8c93:f00c:f032 : [33mSemihOne.local[0m is [2m192.168.1.100, fe80::aca4:8c93:f00c:f032[0m
+[19:37:13] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::aca4:8c93:f00c:f032 : [33mSemihOne.local[0m is [2m192.168.1.100, fe80::aca4:8c93:f00c:f032[0m
+[19:37:13] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::c693:575c:a8b3:ed6e : [33mSemihOne.local[0m is [2m192.168.1.105, fe80::c693:575c:a8b3:ed6e[0m
+[19:37:13] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::c693:575c:a8b3:ed6e : [33mSemihOne.local[0m is [2m192.168.1.105, fe80::c693:575c:a8b3:ed6e[0m
+[19:37:13] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:13] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:13] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:13] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m SemihOne.local : [33mSemihOne.local[0m is [2m192.168.1.105, fe80::c693:575c:a8b3:ed6e[0m
+[19:37:14] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mSemihOne.local[0m is [2m192.168.1.100, fe80::aca4:8c93:f00c:f032[0m
+[19:37:14] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m SemihOne.local : [33mSemihOne.local[0m is [2m192.168.1.105, fe80::c693:575c:a8b3:ed6e[0m
+[19:37:14] [[32mnet.sniff.dns[0m] [100m[97mdns[0m 8.8.8.8 > [2mlocal[0m : [33m1.1.168.192.in-addr.arpa[0m is [2m[31mNon-Existent Domain[0m[0m
+[19:37:14] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:14] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:14] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:15] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mwww3.l.google.com[0m is [2m142.250.187.174[0m
+[19:37:15] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mwww.gstatic.com[0m is [2m142.251.140.35[0m
+[19:37:15] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33mssl.gstatic.com[0m is [2m142.251.141.35[0m
+[19:37:15] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:15] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:15] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:16] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:16] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:16] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:17] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:17] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:17] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:18] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:18] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:18] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:19] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33medge-web.dual-gslb.spotify.com[0m is [2m35.186.224.24[0m
+[19:37:19] [[32mnet.sniff.https[0m] [43m[97msni[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local > [33mhttps://spclient.wg.spotify.com[0m
+[19:37:19] [[32mnet.sniff.dns[0m] [100m[97mdns[0m 8.8.8.8 > [2mlocal[0m : [33m1.1.168.192.in-addr.arpa[0m is [2m[31mNon-Existent Domain[0m[0m
+[19:37:20] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:20] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:20] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:20] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:20] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:20] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:22] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:22] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:22] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:22] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:22] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:22] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:23] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:23] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:23] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:24] [[32mnet.sniff.dns[0m] [100m[97mdns[0m 8.8.8.8 > [2mlocal[0m : [33m1.1.168.192.in-addr.arpa[0m is [2m[31mNon-Existent Domain[0m[0m
+[19:37:24] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:24] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:24] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:25] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:25] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:25] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:26] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33myoutube-ui.l.google.com[0m is [2m172.217.20.78, 142.250.187.174, 172.217.169.206, 142.250.184.142, 172.217.17.110, 142.251.140.78, 142.251.141.46, 142.250.187.142, 172.217.17.142, 142.250.187.110, 216.58.212.14, 216.58.214.142, 216.58.212.46, 142.251.140.14, 216.58.213.110, 142.251.140.46[0m
+[19:37:27] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:27] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:27] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:27] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:27] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:27] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:28] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::49ba:3058:cce7:ee04 : [2mPTR[0m query for [33m_spotify-connect._tcp.local[0m
+[19:37:28] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m250d1283-4295-4277-a9ec-e134714240da.local[0m is [2m::[0m
+[19:37:28] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m WORKGROUP : [2mPTR[0m query for [33m_spotify-connect._tcp.local[0m
+[19:37:28] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m1e1146e4-97f2-41a9-8fce-d7ce9e76c10a.local[0m is [2m0.0.0.0[0m
+[19:37:28] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m 5794fce8-ad48-4037-a0c9-3dd7ac359928.local : [33m5794fce8-ad48-4037-a0c9-3dd7ac359928.local[0m is [2m192.168.1.100[0m
+[19:37:29] [[32mnet.sniff.dns[0m] [100m[97mdns[0m 8.8.8.8 > [2mlocal[0m : [33m1.1.168.192.in-addr.arpa[0m is [2m[31mNon-Existent Domain[0m[0m
+[2025-05-22 19:37:29] [✓] Bettercap canlı dinleme tamamlandı.
+[2025-05-22 19:57:24] === MITM MODÜLÜ (TAM OTOMATİK, SEKTÖRE HAZIR) BAŞLATILDI ===
+[2025-05-22 19:57:25] [✓] Aktif arayüz: eth1
+[2025-05-22 19:57:25] [ERROR] Gateway ya da MITM hedefi yok.
+[2025-05-23 05:25:00] === MITM MODÜLÜ (TAM OTOMATİK, SEKTÖRE HAZIR) BAŞLATILDI ===
+[2025-05-23 05:25:01] [✓] eth1 arayüzü aktif hale getirildi.
+[2025-05-23 05:25:01] [✓] Aktif arayüz: eth1
+[2025-05-23 05:25:01] [ERROR] Gateway ya da MITM hedefi yok.

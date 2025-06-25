@@ -1,0 +1,18 @@
+{
+    "enum_time": "2025-05-22T07:05:52.906668",
+    "target_count": 1,
+    "results": [
+        {
+            "ip": "192.168.1.102",
+            "shares": [
+                "ADMIN$",
+                "C$",
+                "IPC$",
+                "Public",
+                "testshare"
+            ],
+            "username": "root",
+            "raw_output": "Password for [WORKGROUP\\root]:\n\n\tSharename       Type      Comment\n\t---------       ----      -------\n\tADMIN$          Disk      Uzak Y\u00f6netici\n\tC$              Disk      Varsay\u0131lan de\u011fer\n\tIPC$            IPC       Uzak IPC\n\tPublic          Disk      \n\ttestshare       Disk      \nSMB1 disabled -- no workgroup available\n"
+        }
+    ]
+}

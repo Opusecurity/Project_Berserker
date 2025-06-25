@@ -1,0 +1,28 @@
+[
+    {
+        "ip": "192.168.1.103",
+        "risk_score": 0.67,
+        "label": "high",
+        "explanation": [
+            "3 successful brute force attempts"
+        ]
+    },
+    {
+        "ip": "192.168.1.101",
+        "risk_score": 0.06,
+        "label": "medium",
+        "explanation": []
+    },
+    {
+        "ip": "192.168.1.1",
+        "risk_score": 0.06,
+        "label": "medium",
+        "explanation": []
+    },
+    {
+        "ip": "192.168.1.102",
+        "risk_score": 0.06,
+        "label": "medium",
+        "explanation": []
+    }
+]

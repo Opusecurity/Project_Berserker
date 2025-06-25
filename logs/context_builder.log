@@ -1,0 +1,243 @@
+[2025-05-02 20:14:01] Loaded latest file: data/sniffed/sniff_2025_05_02_20_13.json
+[2025-05-02 20:14:01] Loaded latest file: data/raw/scan_2025_05_02_20_11.json
+[2025-05-02 20:14:01] [!] Failed to write context file: [Errno 13] Permission denied: 'data/context/context.json'
+[2025-05-02 20:14:14] Loaded latest file: data/sniffed/sniff_2025_05_02_20_13.json
+[2025-05-02 20:14:14] Loaded latest file: data/raw/scan_2025_05_02_20_11.json
+[2025-05-02 20:14:14] [SUCCESS] Context written to data/context/context.json (9 entries)
+[2025-05-03 11:02:05] Loaded latest file: data/sniffed/sniff_2025_05_03_08_17.json
+[2025-05-03 11:02:05] Loaded latest file: data/raw/scan_2025_05_03_08_21.json
+[2025-05-03 11:02:05] [!] Failed to write context file: [Errno 13] Permission denied: 'data/context/context_2025_05_03_11_02.json'
+[2025-05-03 11:02:27] Loaded latest file: data/sniffed/sniff_2025_05_03_08_17.json
+[2025-05-03 11:02:27] Loaded latest file: data/raw/scan_2025_05_03_08_21.json
+[2025-05-03 11:02:27] [SUCCESS] Context written to data/context/context_2025_05_03_11_02.json (7 entries)
+[2025-05-03 11:04:03] Loaded latest file: data/sniffed/sniff_2025_05_03_08_17.json
+[2025-05-03 11:04:03] Loaded latest file: data/raw/scan_2025_05_03_08_21.json
+[2025-05-03 11:04:03] [SUCCESS] Context written to data/context/context.json (7 entries)
+[2025-05-03 12:57:08] Loaded latest file: data/sniffed/sniff_2025_05_03_08_17.json
+[2025-05-03 12:57:08] Loaded latest file: data/raw/scan_2025_05_03_12_54.json
+[2025-05-03 12:57:08] [!] Failed to write context file: [Errno 13] Permission denied: 'data/context/context.json'
+[2025-05-03 12:57:26] Loaded latest file: data/sniffed/sniff_2025_05_03_08_17.json
+[2025-05-03 12:57:26] Loaded latest file: data/raw/scan_2025_05_03_12_54.json
+[2025-05-03 12:57:26] [SUCCESS] Context written to data/context/context.json (7 entries)
+[2025-05-03 14:10:53] Loaded latest file: data/sniffed/sniff_2025_05_03_08_17.json
+[2025-05-03 14:10:53] Loaded latest file: data/raw/scan_2025_05_03_12_54.json
+[2025-05-03 14:10:53] [!] Failed to write context file: [Errno 13] Permission denied: 'data/context/context.json'
+[2025-05-03 14:11:21] Loaded latest file: data/sniffed/sniff_2025_05_03_08_17.json
+[2025-05-03 14:11:21] Loaded latest file: data/raw/scan_2025_05_03_12_54.json
+[2025-05-03 14:11:21] [SUCCESS] Context written to data/context/context.json (7 entries)
+[2025-05-03 17:39:18] Loaded latest file: data/sniffed/sniff_2025_05_03_08_17.json
+[2025-05-03 17:39:18] Loaded latest file: data/raw/scan_2025_05_03_17_39.json
+[2025-05-03 17:39:18] [!] Failed to write context file: [Errno 13] Permission denied: 'data/context/context.json'
+[2025-05-03 17:39:40] Loaded latest file: data/sniffed/sniff_2025_05_03_08_17.json
+[2025-05-03 17:39:40] Loaded latest file: data/raw/scan_2025_05_03_17_39.json
+[2025-05-03 17:39:40] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-04 06:25:51] Loaded latest file: data/sniffed/sniff_2025_05_03_08_17.json
+[2025-05-04 06:25:51] Loaded latest file: data/raw/scan_2025_05_04_06_25.json
+[2025-05-04 06:25:51] [!] Failed to write context file: [Errno 13] Permission denied: 'data/context/context.json'
+[2025-05-04 06:26:09] Loaded latest file: data/sniffed/sniff_2025_05_03_08_17.json
+[2025-05-04 06:26:09] Loaded latest file: data/raw/scan_2025_05_04_06_25.json
+[2025-05-04 06:26:09] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-10 16:16:43] Loaded latest file: data/sniffed/sniff_2025_05_10_16_16.json
+[2025-05-10 16:16:43] Loaded latest file: data/raw/scan_2025_05_10_16_09.json
+[2025-05-10 16:16:43] [!] Failed to write context file: [Errno 13] Permission denied: 'data/context/context.json'
+[2025-05-10 16:17:17] Loaded latest file: data/sniffed/sniff_2025_05_10_16_16.json
+[2025-05-10 16:17:17] Loaded latest file: data/raw/scan_2025_05_10_16_09.json
+[2025-05-10 16:17:17] [SUCCESS] Context written to data/context/context.json (7 entries)
+[2025-05-11 18:06:36] Loaded latest file: data/sniffed/sniff_2025_05_10_16_16.json
+[2025-05-11 18:06:36] Loaded latest file: data/raw/scan_2025_05_11_18_06.json
+[2025-05-11 18:06:36] [!] Failed to write context file: [Errno 13] Permission denied: 'data/context/context.json'
+[2025-05-11 18:20:24] Loaded latest file: data/sniffed/sniff_2025_05_11_18_20.json
+[2025-05-11 18:20:24] Loaded latest file: data/raw/scan_2025_05_11_18_19.json
+[2025-05-11 18:20:24] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-11 18:37:05] Loaded latest file: data/sniffed/sniff_2025_05_11_18_37.json
+[2025-05-11 18:37:05] Loaded latest file: data/raw/scan_2025_05_11_18_36.json
+[2025-05-11 18:37:05] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-11 18:38:30] Loaded latest file: data/sniffed/sniff_2025_05_11_18_37.json
+[2025-05-11 18:38:30] Loaded latest file: data/raw/scan_2025_05_11_18_36.json
+[2025-05-11 18:38:30] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-11 18:51:12] Loaded latest file: data/sniffed/sniff_2025_05_11_18_51.json
+[2025-05-11 18:51:12] Loaded latest file: data/raw/scan_2025_05_11_18_50.json
+[2025-05-11 18:51:12] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-11 18:52:37] Loaded latest file: data/sniffed/sniff_2025_05_11_18_51.json
+[2025-05-11 18:52:37] Loaded latest file: data/raw/scan_2025_05_11_18_50.json
+[2025-05-11 18:52:37] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-11 19:15:52] Loaded latest file: data/sniffed/sniff_2025_05_11_19_15.json
+[2025-05-11 19:15:52] Loaded latest file: data/raw/scan_2025_05_11_19_14.json
+[2025-05-11 19:15:52] [SUCCESS] Context written to data/context/context.json (9 entries)
+[2025-05-12 04:38:30] Loaded latest file: data/sniffed/sniff_2025_05_12_04_38.json
+[2025-05-12 04:38:30] Loaded latest file: data/raw/scan_2025_05_12_04_37.json
+[2025-05-12 04:38:30] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-12 05:02:22] Loaded latest file: data/sniffed/sniff_2025_05_12_05_02.json
+[2025-05-12 05:02:22] Loaded latest file: data/raw/scan_2025_05_12_05_01.json
+[2025-05-12 05:02:23] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-12 05:18:54] Loaded latest file: data/sniffed/sniff_2025_05_12_05_18.json
+[2025-05-12 05:18:54] Loaded latest file: data/raw/scan_2025_05_12_05_17.json
+[2025-05-12 05:18:54] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-12 06:06:04] Loaded latest file: data/sniffed/sniff_2025_05_12_06_06.json
+[2025-05-12 06:06:04] Loaded latest file: data/raw/scan_2025_05_12_06_05.json
+[2025-05-12 06:06:04] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-12 06:17:01] Loaded latest file: data/sniffed/sniff_2025_05_12_06_17.json
+[2025-05-12 06:17:01] Loaded latest file: data/raw/scan_2025_05_12_06_16.json
+[2025-05-12 06:17:01] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-12 06:31:51] Loaded latest file: data/sniffed/sniff_2025_05_12_06_17.json
+[2025-05-12 06:31:51] Loaded latest file: data/raw/scan_2025_05_12_06_30.json
+[2025-05-12 06:31:51] [!] Failed to write context file: [Errno 13] Permission denied: 'data/context/context.json'
+[2025-05-12 06:42:56] Loaded latest file: data/sniffed/sniff_2025_05_12_06_42.json
+[2025-05-12 06:42:56] Loaded latest file: data/raw/scan_2025_05_12_06_41.json
+[2025-05-12 06:42:56] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-12 07:35:58] Loaded latest file: data/sniffed/sniff_2025_05_12_07_35.json
+[2025-05-12 07:35:58] Loaded latest file: data/raw/scan_2025_05_12_07_34.json
+[2025-05-12 07:35:58] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-12 08:11:27] Loaded latest file: data/sniffed/sniff_2025_05_12_08_11.json
+[2025-05-12 08:11:27] Loaded latest file: data/raw/scan_2025_05_12_07_34.json
+[2025-05-12 08:11:27] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-12 08:11:31] Loaded latest file: data/sniffed/sniff_2025_05_12_08_11.json
+[2025-05-12 08:11:31] Loaded latest file: data/raw/scan_2025_05_12_07_34.json
+[2025-05-12 08:11:31] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-12 08:37:09] Loaded latest file: data/sniffed/sniff_2025_05_12_08_14.json
+[2025-05-12 08:37:09] Loaded latest file: data/raw/scan_2025_05_12_07_34.json
+[2025-05-12 08:37:09] Loaded ARP resolver data: data/arp/arp_2025_05_12_08_36.json
+[2025-05-12 08:37:09] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-12 08:44:40] Loaded latest file: data/sniffed/sniff_2025_05_12_08_44.json
+[2025-05-12 08:44:40] Loaded latest file: data/raw/scan_2025_05_12_08_43.json
+[2025-05-12 08:44:40] Loaded ARP resolver data: data/arp/arp_2025_05_12_08_44.json
+[2025-05-12 08:44:40] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-12 09:10:38] Loaded latest file: data/sniffed/sniff_2025_05_12_09_10.json
+[2025-05-12 09:10:38] Loaded latest file: data/raw/scan_2025_05_12_09_10.json
+[2025-05-12 09:10:38] Loaded ARP resolver data: data/arp/arp_2025_05_12_09_10.json
+[2025-05-12 09:10:38] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-12 12:45:10] Loaded latest file: data/sniffed/sniff_2025_05_12_12_45.json
+[2025-05-12 12:45:10] Loaded latest file: data/raw/scan_2025_05_12_12_44.json
+[2025-05-12 12:45:10] Loaded ARP resolver data: data/arp/arp_2025_05_12_12_45.json
+[2025-05-12 12:45:10] [SUCCESS] Context written to data/context/context.json (6 entries)
+[2025-05-12 12:53:13] Loaded latest file: data/sniffed/sniff_2025_05_12_12_53.json
+[2025-05-12 12:53:13] Loaded latest file: data/raw/scan_2025_05_12_12_52.json
+[2025-05-12 12:53:13] Loaded ARP resolver data: data/arp/arp_2025_05_12_12_53.json
+[2025-05-12 12:53:13] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-12 13:20:29] Loaded latest file: data/sniffed/sniff_2025_05_12_13_20.json
+[2025-05-12 13:20:29] Loaded latest file: data/raw/scan_2025_05_12_13_19.json
+[2025-05-12 13:20:29] Loaded ARP resolver data: data/arp/arp_2025_05_12_13_20.json
+[2025-05-12 13:20:29] [SUCCESS] Context written to data/context/context.json (9 entries)
+[2025-05-12 14:04:08] Loaded latest file: data/sniffed/sniff_2025_05_12_14_04.json
+[2025-05-12 14:04:08] Loaded latest file: data/raw/scan_2025_05_12_14_03.json
+[2025-05-12 14:04:08] Loaded ARP resolver data: data/arp/arp_2025_05_12_14_04.json
+[2025-05-12 14:04:08] [SUCCESS] Context written to data/context/context.json (7 entries)
+[2025-05-12 14:31:00] Loaded latest file: data/sniffed/sniff_2025_05_12_14_30.json
+[2025-05-12 14:31:00] Loaded latest file: data/raw/scan_2025_05_12_14_29.json
+[2025-05-12 14:31:00] Loaded ARP resolver data: data/arp/arp_2025_05_12_14_31.json
+[2025-05-12 14:31:00] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-12 14:43:06] Loaded latest file: data/sniffed/sniff_2025_05_12_14_43.json
+[2025-05-12 14:43:06] Loaded latest file: data/raw/scan_2025_05_12_14_42.json
+[2025-05-12 14:43:06] Loaded ARP resolver data: data/arp/arp_2025_05_12_14_43.json
+[2025-05-12 14:43:06] [SUCCESS] Context written to data/context/context.json (7 entries)
+[2025-05-12 15:49:15] Loaded latest file: data/sniffed/sniff_2025_05_12_15_49.json
+[2025-05-12 15:49:15] Loaded latest file: data/raw/scan_2025_05_12_15_48.json
+[2025-05-12 15:49:15] Loaded ARP resolver data: data/arp/arp_2025_05_12_15_49.json
+[2025-05-12 15:49:15] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-15 08:29:18] Loaded latest file: data/sniffed/sniff_2025_05_15_08_29.json
+[2025-05-15 08:29:18] Loaded latest file: data/raw/scan_2025_05_15_08_28.json
+[2025-05-15 08:29:18] Loaded ARP resolver data: data/arp/arp_2025_05_15_08_29.json
+[2025-05-15 08:29:18] [SUCCESS] Context written to data/context/context.json (9 entries)
+[2025-05-22 07:05:36] Loaded latest file: data/sniffed/sniff_2025_05_22_07_05.json
+[2025-05-22 07:05:36] Loaded latest file: data/raw/scan_2025_05_22_07_04.json
+[2025-05-22 07:05:36] Loaded ARP resolver data: data/arp/arp_2025_05_22_07_05.json
+[2025-05-22 07:05:36] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-22 19:57:00] Loaded latest file: data/sniffed/sniff_2025_05_22_19_56.json
+[2025-05-22 19:57:00] Loaded latest file: data/raw/scan_2025_05_22_19_56.json
+[2025-05-22 19:57:00] Loaded ARP resolver data: data/arp/hostname_map.json
+[2025-05-22 19:57:00] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-23 19:14:42] Loaded latest file: data/sniffed/sniff_2025_05_23_19_14.json
+[2025-05-23 19:14:42] Loaded latest file: data/raw/scan_2025_05_23_19_13.json
+[2025-05-23 19:14:42] Loaded ARP resolver data: data/arp/hostname_map.json
+[2025-05-23 19:14:42] [SUCCESS] Context written to data/context/context.json (9 entries)
+[2025-05-23 19:22:02] Loaded latest file: data/sniffed/sniff_2025_05_23_19_21.json
+[2025-05-23 19:22:02] Loaded latest file: data/raw/scan_2025_05_23_19_21.json
+[2025-05-23 19:22:02] Loaded ARP resolver data: data/arp/hostname_map.json
+[2025-05-23 19:22:02] [SUCCESS] Context written to data/context/context.json (9 entries)
+[2025-05-23 19:40:46] Loaded latest file: data/sniffed/sniff_2025_05_23_19_40.json
+[2025-05-23 19:40:46] Loaded latest file: data/raw/scan_2025_05_23_19_40.json
+[2025-05-23 19:40:46] Loaded ARP resolver data: data/arp/hostname_map.json
+[2025-05-23 19:40:46] [SUCCESS] Context written to data/context/context.json (9 entries)
+[2025-05-23 20:18:28] Loaded latest file: data/sniffed/sniff_2025_05_23_19_40.json
+[2025-05-23 20:18:28] Loaded latest file: data/raw/scan_2025_05_23_19_40.json
+[2025-05-23 20:18:28] Loaded ARP resolver data: data/arp/hostname_map.json
+[2025-05-23 20:18:28] [SUCCESS] Context written to data/context/context.json (9 entries)
+[2025-05-23 20:18:28] [✓] Gateway auto-detected and saved: 192.168.1.1
+[2025-05-23 20:23:32] Loaded latest file: data/sniffed/sniff_2025_05_23_19_40.json
+[2025-05-23 20:23:32] Loaded latest file: data/raw/scan_2025_05_23_19_40.json
+[2025-05-23 20:23:32] Loaded ARP resolver data: data/arp/arp_2025_05_23_19_40.json
+[2025-05-23 20:24:02] Loaded latest file: data/sniffed/sniff_2025_05_23_19_40.json
+[2025-05-23 20:24:02] Loaded latest file: data/raw/scan_2025_05_23_19_40.json
+[2025-05-23 20:24:02] Loaded ARP resolver data: data/arp/arp_2025_05_23_19_40.json
+[2025-05-23 20:33:39] Loaded latest file: data/sniffed/sniff_2025_05_23_19_40.json
+[2025-05-23 20:33:39] Loaded latest file: data/raw/scan_2025_05_23_19_40.json
+[2025-05-23 20:33:39] Loaded ARP resolver data: data/arp/arp_2025_05_23_19_40.json
+[2025-05-23 20:33:39] [!] ARP dosyası hatası: 'ip'
+[2025-05-23 20:33:39] [SUCCESS] Context written to data/context/context.json (9 entries)
+[2025-05-23 20:33:39] [✓] Gateway auto-detected and saved: 192.168.1.1
+[2025-05-23 20:43:16] Loaded latest file: data/sniffed/sniff_2025_05_23_19_40.json
+[2025-05-23 20:43:16] Loaded latest file: data/raw/scan_2025_05_23_19_40.json
+[2025-05-23 20:43:16] Loaded ARP resolver data: data/arp/arp_2025_05_23_19_40.json
+[2025-05-23 20:43:16] [!] ARP file error: 'ip'
+[2025-05-23 20:43:16] [SUCCESS] Context written to data/context/context.json (9 entries)
+[2025-05-23 20:43:16] [✓] Gateway auto-detected and saved: 192.168.1.1
+[2025-05-24 05:34:03] Loaded latest file: data/sniffed/sniff_2025_05_24_05_33.json
+[2025-05-24 05:34:03] Loaded latest file: data/raw/scan_2025_05_24_05_33.json
+[2025-05-24 05:34:03] Loaded ARP resolver data: data/arp/arp_2025_05_24_05_34.json
+[2025-05-24 05:34:03] [!] ARP file error: 'ip'
+[2025-05-24 05:34:03] [SUCCESS] Context written to data/context/context.json (9 entries)
+[2025-05-24 05:34:03] [✓] Gateway auto-detected and saved: 192.168.1.1
+[2025-05-24 13:00:50] Loaded latest file: data/sniffed/sniff_2025_05_24_13_00.json
+[2025-05-24 13:00:50] Loaded latest file: data/raw/scan_2025_05_24_12_59.json
+[2025-05-24 13:00:50] Loaded ARP resolver data: data/arp/arp_2025_05_24_13_00.json
+[2025-05-24 13:00:50] [!] ARP file error: 'ip'
+[2025-05-24 13:00:50] [SUCCESS] Context written to data/context/context.json (9 entries)
+[2025-05-24 13:00:50] [✓] Gateway auto-detected and saved: 192.168.1.1
+[2025-05-24 13:16:32] Loaded latest file: data/sniffed/sniff_2025_05_24_13_16.json
+[2025-05-24 13:16:32] Loaded latest file: data/raw/scan_2025_05_24_13_15.json
+[2025-05-24 13:16:32] Loaded ARP resolver data: data/arp/arp_2025_05_24_13_16.json
+[2025-05-24 13:16:32] [!] ARP file error: 'ip'
+[2025-05-24 13:16:32] [SUCCESS] Context written to data/context/context.json (9 entries)
+[2025-05-24 13:16:32] [✓] Gateway auto-detected and saved: 192.168.1.1
+[2025-05-24 13:57:11] Loaded latest file: data/sniffed/sniff_2025_05_24_13_57.json
+[2025-05-24 13:57:11] Loaded latest file: data/raw/scan_2025_05_24_13_56.json
+[2025-05-24 13:57:11] Loaded ARP resolver data: data/arp/arp_2025_05_24_13_57.json
+[2025-05-24 13:57:11] [!] ARP file error: 'ip'
+[2025-05-24 13:57:11] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-24 13:57:11] [✓] Gateway auto-detected and saved: 192.168.1.1
+[2025-05-24 14:09:02] Loaded latest file: data/sniffed/sniff_2025_05_24_14_08.json
+[2025-05-24 14:09:02] Loaded latest file: data/raw/scan_2025_05_24_14_07.json
+[2025-05-24 14:09:02] Loaded ARP resolver data: data/arp/arp_2025_05_24_14_09.json
+[2025-05-24 14:09:02] [!] ARP file error: 'ip'
+[2025-05-24 14:09:02] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-24 14:09:02] [✓] Gateway auto-detected and saved: 192.168.1.1
+[2025-05-24 14:18:36] Loaded latest file: data/sniffed/sniff_2025_05_24_14_18.json
+[2025-05-24 14:18:36] Loaded latest file: data/raw/scan_2025_05_24_14_17.json
+[2025-05-24 14:18:36] Loaded ARP resolver data: data/arp/arp_2025_05_24_14_18.json
+[2025-05-24 14:18:36] [!] ARP file error: 'ip'
+[2025-05-24 14:18:36] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-24 14:18:36] [✓] Gateway auto-detected and saved: 192.168.1.1
+[2025-05-24 14:29:30] Loaded latest file: data/sniffed/sniff_2025_05_24_14_29.json
+[2025-05-24 14:29:30] Loaded latest file: data/raw/scan_2025_05_24_14_28.json
+[2025-05-24 14:29:30] Loaded ARP resolver data: data/arp/arp_2025_05_24_14_29.json
+[2025-05-24 14:29:30] [!] ARP file error: 'ip'
+[2025-05-24 14:29:30] [SUCCESS] Context written to data/context/context.json (8 entries)
+[2025-05-24 14:29:30] [✓] Gateway auto-detected and saved: 192.168.1.1
+[2025-05-24 14:43:25] Loaded latest file: data/sniffed/sniff_2025_05_24_14_43.json
+[2025-05-24 14:43:25] Loaded latest file: data/raw/scan_2025_05_24_14_42.json
+[2025-05-24 14:43:25] Loaded ARP resolver data: data/arp/arp_2025_05_24_14_43.json
+[2025-05-24 14:43:25] [!] ARP file error: 'ip'
+[2025-05-24 14:43:25] [SUCCESS] Context written to data/context/context.json (9 entries)
+[2025-05-24 14:43:25] [✓] Gateway auto-detected and saved: 192.168.1.1
+[2025-05-24 14:58:03] Loaded latest file: data/sniffed/sniff_2025_05_24_14_58.json
+[2025-05-24 14:58:03] Loaded latest file: data/raw/scan_2025_05_24_14_56.json
+[2025-05-24 14:58:03] Loaded ARP resolver data: data/arp/arp_2025_05_24_14_58.json
+[2025-05-24 14:58:03] [!] ARP file error: 'ip'
+[2025-05-24 14:58:03] [SUCCESS] Context written to data/context/context.json (9 entries)
+[2025-05-24 14:58:03] [✓] Gateway auto-detected and saved: 192.168.1.1
+[2025-05-24 15:42:36] Loaded latest file: data/sniffed/sniff_2025_05_24_15_42.json
+[2025-05-24 15:42:36] Loaded latest file: data/raw/scan_2025_05_24_15_41.json
+[2025-05-24 15:42:36] Loaded ARP resolver data: data/arp/arp_2025_05_24_15_42.json
+[2025-05-24 15:42:36] [!] ARP file error: 'ip'
+[2025-05-24 15:42:36] [SUCCESS] Context written to data/context/context.json (9 entries)
+[2025-05-24 15:42:36] [✓] Gateway auto-detected and saved: 192.168.1.1

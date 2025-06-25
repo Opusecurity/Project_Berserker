@@ -1,0 +1,36 @@
+{
+    "enum_time": "2025-05-15T08:29:44.247615",
+    "target_count": 4,
+    "results": [
+        {
+            "ip": "192.168.1.103",
+            "shares": [
+                "ADMIN$",
+                "C$",
+                "IPC$",
+                "Public",
+                "testshare"
+            ],
+            "username": "root",
+            "raw_output": "Password for [WORKGROUP\\root]:\n\n\tSharename       Type      Comment\n\t---------       ----      -------\n\tADMIN$          Disk      Uzak Y\u00f6netici\n\tC$              Disk      Varsay\u0131lan de\u011fer\n\tIPC$            IPC       Uzak IPC\n\tPublic          Disk      \n\ttestshare       Disk      \nSMB1 disabled -- no workgroup available\n"
+        },
+        {
+            "ip": "192.168.1.102",
+            "shares": [],
+            "username": "root",
+            "raw_output": "do_connect: Connection to 192.168.1.102 failed (Error NT_STATUS_IO_TIMEOUT)\n"
+        },
+        {
+            "ip": "192.168.1.101",
+            "shares": [],
+            "username": "root",
+            "raw_output": "do_connect: Connection to 192.168.1.101 failed (Error NT_STATUS_CONNECTION_REFUSED)\n"
+        },
+        {
+            "ip": "192.168.1.1",
+            "shares": [],
+            "username": "root",
+            "raw_output": "Password for [WORKGROUP\\root]:\n\n\tSharename       Type      Comment\n\t---------       ----      -------\n\tIPC$            IPC       IPC Service (Samba Server)\nSMB1 disabled -- no workgroup available\n"
+        }
+    ]
+}

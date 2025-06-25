@@ -1,0 +1,46 @@
+[
+    {
+        "ip": "192.168.1.103",
+        "risk_score": 0.402,
+        "explanation": [
+            "Brute-force ile ba\u015far\u0131l\u0131 giri\u015f sa\u011fland\u0131",
+            "3 web zafiyeti tespit edildi",
+            "5 SMB payla\u015f\u0131m\u0131 bulundu"
+        ]
+    },
+    {
+        "ip": "10.50.60.5",
+        "risk_score": 0.0,
+        "explanation": []
+    },
+    {
+        "ip": "10.50.60.3",
+        "risk_score": 0.0,
+        "explanation": []
+    },
+    {
+        "ip": "192.168.1.104",
+        "risk_score": 0.0,
+        "explanation": []
+    },
+    {
+        "ip": "192.168.1.105",
+        "risk_score": 0.0,
+        "explanation": []
+    },
+    {
+        "ip": "192.168.1.101",
+        "risk_score": 0.0,
+        "explanation": []
+    },
+    {
+        "ip": "192.168.1.102",
+        "risk_score": 0.0,
+        "explanation": []
+    },
+    {
+        "ip": "192.168.1.1",
+        "risk_score": 0.0,
+        "explanation": []
+    }
+]

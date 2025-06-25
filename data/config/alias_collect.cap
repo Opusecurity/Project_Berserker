@@ -1,0 +1,4 @@
+
+set events.stream.output raw
+net.probe on
+net.sniff on

@@ -1,0 +1,19 @@
+{
+    "192.168.1.100": {
+        "features": {
+            "ip": "192.168.1.100",
+            "tcp_port_count": 5,
+            "udp_port_count": 0,
+            "total_port_count": 5,
+            "unique_service_count": 4,
+            "vendor_risk_score": 0.5,
+            "is_gateway": 0
+        },
+        "explanation": [
+            "5 open TCP port(s)",
+            "0 open UDP port(s)",
+            "4 unique service(s)",
+            "Vendor risk score: 0.5"
+        ]
+    }
+}

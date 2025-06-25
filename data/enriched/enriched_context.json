@@ -1,0 +1,1062 @@
+{
+    "context_time": "2025-05-22T07:05:36.794605",
+    "device_count": 134,
+    "matched_count": 8,
+    "devices": {
+        "10.50.60.5": {
+            "ip": "10.50.60.5",
+            "hostname": "",
+            "state": "up",
+            "protocols": {
+                "tcp": [
+                    {
+                        "port": 21,
+                        "state": "closed",
+                        "name": "ftp",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 22,
+                        "state": "closed",
+                        "name": "ssh",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 80,
+                        "state": "closed",
+                        "name": "http",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 443,
+                        "state": "closed",
+                        "name": "https",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 445,
+                        "state": "closed",
+                        "name": "microsoft-ds",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 3389,
+                        "state": "closed",
+                        "name": "ms-wbt-server",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    }
+                ],
+                "udp": [
+                    {
+                        "port": 21,
+                        "state": "closed",
+                        "name": "ftp",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 22,
+                        "state": "closed",
+                        "name": "ssh",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 80,
+                        "state": "closed",
+                        "name": "http",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 443,
+                        "state": "closed",
+                        "name": "https",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 445,
+                        "state": "closed",
+                        "name": "microsoft-ds",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 3389,
+                        "state": "closed",
+                        "name": "ms-wbt-server",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    }
+                ]
+            },
+            "mac": null,
+            "interface": "eth0",
+            "risk_level": "normal",
+            "score": 1.0,
+            "ssid": null,
+            "vendor": "Unknown",
+            "seen": null,
+            "packet_type": null,
+            "has_login_success": 0,
+            "login_service_count": 0,
+            "login_credentials": [],
+            "smb_share_count": 0,
+            "smb_share_names": [],
+            "form_count": 0,
+            "admin_panel_count": 0,
+            "web_vuln_count": 0,
+            "web_vuln_types": [],
+            "has_web_vuln": 0,
+            "has_mitm_login": 0,
+            "captured_data_volume": 0,
+            "http_request_count": 0,
+            "broadcast_count": 0
+        },
+        "10.50.60.3": {
+            "ip": "10.50.60.3",
+            "hostname": "",
+            "state": "up",
+            "protocols": {
+                "tcp": [
+                    {
+                        "port": 21,
+                        "state": "filtered",
+                        "name": "ftp",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 22,
+                        "state": "filtered",
+                        "name": "ssh",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 80,
+                        "state": "filtered",
+                        "name": "http",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 443,
+                        "state": "filtered",
+                        "name": "https",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 445,
+                        "state": "filtered",
+                        "name": "microsoft-ds",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 3389,
+                        "state": "filtered",
+                        "name": "ms-wbt-server",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    }
+                ],
+                "udp": [
+                    {
+                        "port": 21,
+                        "state": "closed",
+                        "name": "ftp",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 22,
+                        "state": "closed",
+                        "name": "ssh",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 80,
+                        "state": "closed",
+                        "name": "http",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 443,
+                        "state": "closed",
+                        "name": "https",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 445,
+                        "state": "closed",
+                        "name": "microsoft-ds",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 3389,
+                        "state": "closed",
+                        "name": "ms-wbt-server",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    }
+                ]
+            },
+            "mac": "08:00:27:23:61:27",
+            "interface": "eth0",
+            "risk_level": "high",
+            "score": 0.0,
+            "ssid": null,
+            "vendor": "PCS Systemtechnik GmbH",
+            "seen": null,
+            "packet_type": null,
+            "has_login_success": 0,
+            "login_service_count": 0,
+            "login_credentials": [],
+            "smb_share_count": 0,
+            "smb_share_names": [],
+            "form_count": 0,
+            "admin_panel_count": 0,
+            "web_vuln_count": 0,
+            "web_vuln_types": [],
+            "has_web_vuln": 0,
+            "has_mitm_login": 0,
+            "captured_data_volume": 0,
+            "http_request_count": 0,
+            "broadcast_count": 0
+        },
+        "192.168.1.105": {
+            "ip": "192.168.1.105",
+            "hostname": "",
+            "state": "up",
+            "protocols": {
+                "tcp": [
+                    {
+                        "port": 21,
+                        "state": "closed",
+                        "name": "ftp",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 22,
+                        "state": "closed",
+                        "name": "ssh",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 80,
+                        "state": "closed",
+                        "name": "http",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 443,
+                        "state": "closed",
+                        "name": "https",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 445,
+                        "state": "closed",
+                        "name": "microsoft-ds",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 3389,
+                        "state": "closed",
+                        "name": "ms-wbt-server",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    }
+                ],
+                "udp": [
+                    {
+                        "port": 21,
+                        "state": "closed",
+                        "name": "ftp",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 22,
+                        "state": "closed",
+                        "name": "ssh",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 80,
+                        "state": "closed",
+                        "name": "http",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 443,
+                        "state": "closed",
+                        "name": "https",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 445,
+                        "state": "closed",
+                        "name": "microsoft-ds",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 3389,
+                        "state": "closed",
+                        "name": "ms-wbt-server",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    }
+                ]
+            },
+            "mac": null,
+            "interface": "wlan0",
+            "risk_level": "normal",
+            "score": 1.0,
+            "ssid": null,
+            "vendor": "Unknown",
+            "seen": null,
+            "packet_type": null,
+            "has_login_success": 0,
+            "login_service_count": 0,
+            "login_credentials": [],
+            "smb_share_count": 0,
+            "smb_share_names": [],
+            "form_count": 0,
+            "admin_panel_count": 0,
+            "web_vuln_count": 0,
+            "web_vuln_types": [],
+            "has_web_vuln": 0,
+            "has_mitm_login": 0,
+            "captured_data_volume": 0,
+            "http_request_count": 0,
+            "broadcast_count": 0
+        },
+        "192.168.1.104": {
+            "ip": "192.168.1.104",
+            "hostname": "",
+            "state": "up",
+            "protocols": {
+                "tcp": [
+                    {
+                        "port": 21,
+                        "state": "closed",
+                        "name": "ftp",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 22,
+                        "state": "closed",
+                        "name": "ssh",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 80,
+                        "state": "closed",
+                        "name": "http",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 443,
+                        "state": "closed",
+                        "name": "https",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 445,
+                        "state": "closed",
+                        "name": "microsoft-ds",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 3389,
+                        "state": "closed",
+                        "name": "ms-wbt-server",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    }
+                ],
+                "udp": [
+                    {
+                        "port": 21,
+                        "state": "closed",
+                        "name": "ftp",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 22,
+                        "state": "closed",
+                        "name": "ssh",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 80,
+                        "state": "closed",
+                        "name": "http",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 443,
+                        "state": "closed",
+                        "name": "https",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 445,
+                        "state": "closed",
+                        "name": "microsoft-ds",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 3389,
+                        "state": "closed",
+                        "name": "ms-wbt-server",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    }
+                ]
+            },
+            "mac": null,
+            "interface": "wlan0",
+            "risk_level": "normal",
+            "score": 1.0,
+            "ssid": null,
+            "vendor": "Unknown",
+            "seen": null,
+            "packet_type": null,
+            "has_login_success": 0,
+            "login_service_count": 0,
+            "login_credentials": [],
+            "smb_share_count": 0,
+            "smb_share_names": [],
+            "form_count": 0,
+            "admin_panel_count": 0,
+            "web_vuln_count": 0,
+            "web_vuln_types": [],
+            "has_web_vuln": 0,
+            "has_mitm_login": 0,
+            "captured_data_volume": 0,
+            "http_request_count": 0,
+            "broadcast_count": 0
+        },
+        "192.168.1.101": {
+            "ip": "192.168.1.101",
+            "hostname": "",
+            "state": "up",
+            "protocols": {
+                "tcp": [
+                    {
+                        "port": 21,
+                        "state": "closed",
+                        "name": "ftp",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 22,
+                        "state": "closed",
+                        "name": "ssh",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 80,
+                        "state": "closed",
+                        "name": "http",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 443,
+                        "state": "closed",
+                        "name": "https",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 445,
+                        "state": "closed",
+                        "name": "microsoft-ds",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 3389,
+                        "state": "closed",
+                        "name": "ms-wbt-server",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    }
+                ],
+                "udp": [
+                    {
+                        "port": 21,
+                        "state": "closed",
+                        "name": "ftp",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 22,
+                        "state": "closed",
+                        "name": "ssh",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 80,
+                        "state": "closed",
+                        "name": "http",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 443,
+                        "state": "closed",
+                        "name": "https",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 445,
+                        "state": "closed",
+                        "name": "microsoft-ds",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 3389,
+                        "state": "closed",
+                        "name": "ms-wbt-server",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    }
+                ]
+            },
+            "mac": "96:7f:0b:91:63:49",
+            "interface": "wlan0",
+            "risk_level": "normal",
+            "score": 1.0,
+            "ssid": null,
+            "vendor": "Unknown",
+            "seen": "2025-05-22 07:05:32",
+            "packet_type": "Data",
+            "has_login_success": 0,
+            "login_service_count": 0,
+            "login_credentials": [],
+            "smb_share_count": 0,
+            "smb_share_names": [],
+            "form_count": 0,
+            "admin_panel_count": 0,
+            "web_vuln_count": 0,
+            "web_vuln_types": [],
+            "has_web_vuln": 0,
+            "has_mitm_login": 0,
+            "captured_data_volume": 0,
+            "http_request_count": 0,
+            "broadcast_count": 0
+        },
+        "192.168.1.103": {
+            "ip": "192.168.1.103",
+            "hostname": "",
+            "state": "up",
+            "protocols": {
+                "tcp": [
+                    {
+                        "port": 21,
+                        "state": "filtered",
+                        "name": "ftp",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 22,
+                        "state": "filtered",
+                        "name": "ssh",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 80,
+                        "state": "filtered",
+                        "name": "http",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 443,
+                        "state": "filtered",
+                        "name": "https",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 445,
+                        "state": "filtered",
+                        "name": "microsoft-ds",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 3389,
+                        "state": "filtered",
+                        "name": "ms-wbt-server",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    }
+                ],
+                "udp": [
+                    {
+                        "port": 21,
+                        "state": "open|filtered",
+                        "name": "ftp",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 22,
+                        "state": "open|filtered",
+                        "name": "ssh",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 80,
+                        "state": "open|filtered",
+                        "name": "http",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 443,
+                        "state": "open|filtered",
+                        "name": "https",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 445,
+                        "state": "open|filtered",
+                        "name": "microsoft-ds",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 3389,
+                        "state": "open|filtered",
+                        "name": "ms-wbt-server",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    }
+                ]
+            },
+            "mac": "14:85:7f:7e:06:1c",
+            "interface": "wlan0",
+            "risk_level": "high",
+            "score": 0.0,
+            "ssid": null,
+            "vendor": "Intel Corporate",
+            "seen": "2025-05-22 07:05:33",
+            "packet_type": "Control",
+            "has_login_success": 0,
+            "login_service_count": 0,
+            "login_credentials": [],
+            "smb_share_count": 0,
+            "smb_share_names": [],
+            "form_count": 0,
+            "admin_panel_count": 0,
+            "web_vuln_count": 0,
+            "web_vuln_types": [],
+            "has_web_vuln": 0,
+            "has_mitm_login": 0,
+            "captured_data_volume": 0,
+            "http_request_count": 0,
+            "broadcast_count": 0
+        },
+        "192.168.1.102": {
+            "ip": "192.168.1.102",
+            "hostname": "",
+            "state": "up",
+            "protocols": {
+                "tcp": [
+                    {
+                        "port": 21,
+                        "state": "open",
+                        "name": "ftp",
+                        "product": "Microsoft ftpd",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 22,
+                        "state": "open",
+                        "name": "ssh",
+                        "product": "OpenSSH",
+                        "version": "for_Windows_9.5",
+                        "extrainfo": "protocol 2.0"
+                    },
+                    {
+                        "port": 80,
+                        "state": "open",
+                        "name": "http",
+                        "product": "Microsoft IIS httpd",
+                        "version": "10.0",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 443,
+                        "state": "open",
+                        "name": "http",
+                        "product": "Microsoft IIS httpd",
+                        "version": "10.0",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 445,
+                        "state": "open",
+                        "name": "microsoft-ds",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 3389,
+                        "state": "filtered",
+                        "name": "ms-wbt-server",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    }
+                ],
+                "udp": [
+                    {
+                        "port": 21,
+                        "state": "open|filtered",
+                        "name": "ftp",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 22,
+                        "state": "open|filtered",
+                        "name": "ssh",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 80,
+                        "state": "open|filtered",
+                        "name": "http",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 443,
+                        "state": "open|filtered",
+                        "name": "https",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 445,
+                        "state": "open|filtered",
+                        "name": "microsoft-ds",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 3389,
+                        "state": "open|filtered",
+                        "name": "ms-wbt-server",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    }
+                ]
+            },
+            "mac": "e0:c2:64:94:67:45",
+            "interface": "wlan0",
+            "risk_level": "normal",
+            "score": 0.83,
+            "ssid": null,
+            "vendor": "Intel Corporate",
+            "seen": "2025-05-22 07:05:32",
+            "packet_type": "Control",
+            "has_login_success": 1,
+            "login_service_count": 3,
+            "login_credentials": [
+                {
+                    "service": "ftp",
+                    "username": "root"
+                },
+                {
+                    "service": "ssh",
+                    "username": "root"
+                },
+                {
+                    "service": "smb",
+                    "username": "root"
+                }
+            ],
+            "smb_share_count": 5,
+            "smb_share_names": [
+                "ADMIN$",
+                "C$",
+                "IPC$",
+                "Public",
+                "testshare"
+            ],
+            "form_count": 10,
+            "admin_panel_count": 3,
+            "web_vuln_count": 3,
+            "web_vuln_types": [
+                "sqli",
+                "xss",
+                "lfi"
+            ],
+            "has_web_vuln": 1,
+            "has_mitm_login": 0,
+            "captured_data_volume": 0,
+            "http_request_count": 0,
+            "broadcast_count": 0
+        },
+        "192.168.1.1": {
+            "ip": "192.168.1.1",
+            "hostname": "",
+            "state": "up",
+            "protocols": {
+                "tcp": [
+                    {
+                        "port": 21,
+                        "state": "closed",
+                        "name": "ftp",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 22,
+                        "state": "closed",
+                        "name": "ssh",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 80,
+                        "state": "open",
+                        "name": "http",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 443,
+                        "state": "open",
+                        "name": "https",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 445,
+                        "state": "open",
+                        "name": "netbios-ssn",
+                        "product": "Samba smbd",
+                        "version": "3.X - 4.X",
+                        "extrainfo": "workgroup: WORKGROUP"
+                    },
+                    {
+                        "port": 3389,
+                        "state": "closed",
+                        "name": "ms-wbt-server",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    }
+                ],
+                "udp": [
+                    {
+                        "port": 21,
+                        "state": "closed",
+                        "name": "ftp",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 22,
+                        "state": "closed",
+                        "name": "ssh",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 80,
+                        "state": "closed",
+                        "name": "http",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 443,
+                        "state": "closed",
+                        "name": "https",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 445,
+                        "state": "closed",
+                        "name": "microsoft-ds",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    },
+                    {
+                        "port": 3389,
+                        "state": "closed",
+                        "name": "ms-wbt-server",
+                        "product": "",
+                        "version": "",
+                        "extrainfo": ""
+                    }
+                ]
+            },
+            "mac": "78:8c:b5:08:0c:2e",
+            "interface": "wlan0",
+            "risk_level": "normal",
+            "score": 1.0,
+            "ssid": "FiberHGW_TP0C30_2.4GHz",
+            "vendor": "TP-Link Systems Inc",
+            "seen": "2025-05-22 07:05:24",
+            "packet_type": "Beacon",
+            "has_login_success": 0,
+            "login_service_count": 0,
+            "login_credentials": [],
+            "smb_share_count": 0,
+            "smb_share_names": [],
+            "form_count": 0,
+            "admin_panel_count": 0,
+            "web_vuln_count": 0,
+            "web_vuln_types": [],
+            "has_web_vuln": 0,
+            "has_mitm_login": 0,
+            "captured_data_volume": 0,
+            "http_request_count": 0,
+            "broadcast_count": 0
+        }
+    }
+}

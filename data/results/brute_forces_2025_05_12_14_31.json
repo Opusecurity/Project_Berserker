@@ -1,0 +1,27 @@
+{
+    "scan_time": "2025-05-12T14:31:19.451641",
+    "total_attempts": 9,
+    "successful_logins": [
+        {
+            "ip": "192.168.1.103",
+            "port": 21,
+            "service": "ftp",
+            "username": "root",
+            "password": "123456789"
+        },
+        {
+            "ip": "192.168.1.103",
+            "port": 22,
+            "service": "ssh",
+            "username": "root",
+            "password": "123456789"
+        },
+        {
+            "ip": "192.168.1.103",
+            "port": 445,
+            "service": "smb",
+            "username": "root",
+            "password": "123456789"
+        }
+    ]
+}

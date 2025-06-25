@@ -1,0 +1,175 @@
+[2025-05-03 14:03:54] Starting SMB enumeration on 1 target(s)...
+[2025-05-03 14:03:55] 192.168.1.1 - 0 share(s) found
+[2025-05-03 14:03:55] Enumeration results saved to → data/enum/smb_enum_2025_05_03_14_03.json
+[2025-05-03 14:08:02] Starting SMB enumeration on 1 target(s)...
+[2025-05-03 14:08:02] 192.168.1.1 - 0 share(s) found
+[2025-05-03 14:08:02] Enumeration results saved to → data/enum/smb_enum_2025_05_03_14_08.json
+[2025-05-03 14:14:11] Starting SMB enumeration on 1 target(s)...
+[2025-05-03 14:14:11] 192.168.1.1 - 0 share(s) found
+[2025-05-03 14:14:11] Enumeration results saved to → data/enum/smb_enum_2025_05_03_14_14.json
+[2025-05-03 14:14:23] Starting SMB enumeration on 1 target(s)...
+[2025-05-03 14:14:23] 192.168.1.1 - 0 share(s) found
+[2025-05-03 14:14:23] Enumeration results saved to → data/enum/smb_enum_2025_05_03_14_14.json
+[2025-05-03 14:15:43] Starting SMB enumeration on 1 target(s)...
+[2025-05-03 14:15:43] 192.168.1.1 - 0 share(s) found
+[2025-05-03 14:15:43] Enumeration results saved to → data/enum/smb_enum_2025_05_03_14_15.json
+[2025-05-03 14:15:54] Starting SMB enumeration on 1 target(s)...
+[2025-05-03 14:15:55] 192.168.1.1 - 0 share(s) found
+[2025-05-03 14:15:55] Enumeration results saved to → data/enum/smb_enum_2025_05_03_14_15.json
+[2025-05-03 14:18:05] Starting SMB enumeration on 1 target(s)...
+[2025-05-03 14:18:05] 192.168.1.1 - 0 share(s) found
+[2025-05-03 14:18:05] Enumeration results saved to → data/enum/smb_enum_2025_05_03_14_18.json
+[2025-05-03 14:19:16] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-03 14:19:16] [DEBUG] Final SMB targets: ['192.168.1.1']
+[2025-05-03 14:19:16] Starting SMB enumeration on 1 target(s)...
+[2025-05-03 14:19:16] 192.168.1.1 - 0 share(s) found
+[2025-05-03 14:19:16] Enumeration results saved to → data/enum/smb_enum_2025_05_03_14_19.json
+[2025-05-03 14:21:32] [MATCH] Found SMB target → 10.50.60.3
+[2025-05-03 14:21:32] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-03 14:21:32] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-03 14:21:32] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-03 14:21:32] [DEBUG] Final SMB targets: ['10.50.60.3', '192.168.1.103', '192.168.1.102', '192.168.1.1']
+[2025-05-03 14:21:32] Starting SMB enumeration on 4 target(s)...
+[2025-05-03 14:21:32] 192.168.1.1 - 0 share(s) found
+[2025-05-03 14:21:32] 10.50.60.3 - Unknown or empty response
+[2025-05-03 14:21:34] 192.168.1.102 - Access denied (no anonymous session)
+[2025-05-03 14:21:39] 192.168.1.103 - Unknown or empty response
+[2025-05-03 14:21:39] Enumeration results saved to → data/enum/smb_enum_2025_05_03_14_21.json
+[2025-05-03 14:55:50] [MATCH] Found SMB target → 10.50.60.3
+[2025-05-03 14:55:50] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-03 14:55:50] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-03 14:55:50] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-03 14:55:50] [DEBUG] Final SMB targets: ['10.50.60.3', '192.168.1.103', '192.168.1.102', '192.168.1.1']
+[2025-05-03 14:55:50] Starting SMB enumeration on 4 target(s)...
+[2025-05-03 14:55:50] 192.168.1.1 - 0 share(s) found
+[2025-05-03 14:55:55] 192.168.1.103 - Unknown or empty response
+[2025-05-03 14:55:57] 192.168.1.102 - Access denied (no anonymous session)
+[2025-05-03 14:55:57] 10.50.60.3 - Unknown or empty response
+[2025-05-03 14:55:57] Enumeration results saved to → data/enum/smb_enum_2025_05_03_14_55.json
+[2025-05-03 14:58:30] [MATCH] Found SMB target → 10.50.60.3
+[2025-05-03 14:58:30] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-03 14:58:30] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-03 14:58:30] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-03 14:58:30] [DEBUG] Final SMB targets: ['10.50.60.3', '192.168.1.103', '192.168.1.102', '192.168.1.1']
+[2025-05-03 14:58:30] Starting SMB enumeration on 4 target(s)...
+[2025-05-03 14:58:30] 192.168.1.1 - 0 share(s) found
+[2025-05-03 14:58:30] 10.50.60.3 - Unknown or empty response
+[2025-05-03 14:58:34] 192.168.1.102 - Access denied (no anonymous session)
+[2025-05-03 14:58:39] 192.168.1.103 - Unknown or empty response
+[2025-05-03 14:58:39] Enumeration results saved to → data/enum/smb_enum_2025_05_03_14_58.json
+[2025-05-03 15:01:52] [MATCH] Found SMB target → 10.50.60.3
+[2025-05-03 15:01:52] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-03 15:01:52] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-03 15:01:52] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-03 15:01:52] [DEBUG] Final SMB targets: ['10.50.60.3', '192.168.1.103', '192.168.1.102', '192.168.1.1']
+[2025-05-03 15:01:52] Starting SMB enumeration on 4 target(s)...
+[2025-05-03 15:01:57] 192.168.1.103 - Unknown or empty response
+[2025-05-03 15:01:57] 192.168.1.1 - 0 share(s) found
+[2025-05-03 15:01:57] 10.50.60.3 - Unknown or empty response
+[2025-05-03 15:02:00] 192.168.1.102 - 0 share(s) found
+[2025-05-03 15:02:00] Enumeration results saved to → data/enum/smb_enum_2025_05_03_15_02.json
+[2025-05-03 15:05:45] [MATCH] Found SMB target → 10.50.60.3
+[2025-05-03 15:05:45] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-03 15:05:45] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-03 15:05:45] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-03 15:08:41] [MATCH] Found SMB target → 10.50.60.3
+[2025-05-03 15:08:41] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-03 15:08:41] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-03 15:08:41] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-03 15:09:19] [MATCH] Found SMB target → 10.50.60.3
+[2025-05-03 15:09:19] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-03 15:09:19] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-03 15:09:19] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-03 15:32:59] [MATCH] Found SMB target → 10.50.60.3
+[2025-05-03 15:32:59] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-03 15:32:59] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-03 15:32:59] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-03 15:35:49] [MATCH] Found SMB target → 10.50.60.3
+[2025-05-03 15:35:49] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-03 15:35:49] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-03 15:35:49] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-03 17:39:45] [MATCH] Found SMB target → 10.50.60.3
+[2025-05-03 17:39:45] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-03 17:39:45] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-03 17:39:45] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-04 06:37:43] [MATCH] Found SMB target → 10.50.60.3
+[2025-05-04 06:37:43] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-04 06:37:43] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-04 06:37:43] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-04 06:39:43] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-04 06:39:43] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-04 06:52:33] [MATCH] Found SMB target → 10.50.60.3
+[2025-05-04 06:52:33] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-04 06:52:33] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-04 06:52:33] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-04 07:11:56] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-04 07:11:56] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-04 07:11:56] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-11 18:06:54] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-11 18:06:54] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-11 18:06:54] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-11 18:20:37] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-11 18:20:37] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-11 18:20:37] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-11 18:37:16] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-11 18:37:16] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-11 18:37:16] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-11 18:51:23] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-11 18:51:23] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-11 18:51:23] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-11 19:16:11] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-11 19:16:11] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-11 19:16:11] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-12 04:38:44] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-12 04:38:44] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-12 04:38:44] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-12 05:02:34] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-12 05:02:34] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-12 05:02:34] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-12 05:19:08] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-12 05:19:08] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-12 05:19:08] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-12 06:06:20] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-12 06:06:20] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-12 06:06:20] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-12 06:32:01] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-12 06:32:01] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-12 06:32:01] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-12 06:43:06] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-12 06:43:06] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-12 06:43:06] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-12 07:36:21] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-12 07:36:21] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-12 07:36:21] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-12 08:45:01] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-12 08:45:01] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-12 08:45:01] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-12 09:10:57] [MATCH] Found SMB target → 192.168.1.102
+[2025-05-12 09:10:57] [MATCH] Found SMB target → 192.168.1.103
+[2025-05-12 09:10:57] [MATCH] Found SMB target → 192.168.1.1
+[2025-05-12 12:45:13] [ERROR] Context or strategy file not found.
+[2025-05-12 14:04:25] [MATCH] AI-recommended SMB target → 192.168.1.102
+[2025-05-12 14:04:25] [MATCH] AI-recommended SMB target → 192.168.1.103
+[2025-05-12 14:04:25] [MATCH] AI-recommended SMB target → 192.168.1.1
+[2025-05-12 14:31:20] [MATCH] AI-recommended SMB target → 192.168.1.102
+[2025-05-12 14:31:20] [MATCH] AI-recommended SMB target → 192.168.1.103
+[2025-05-12 14:31:20] [MATCH] AI-recommended SMB target → 192.168.1.1
+[2025-05-12 14:43:19] [MATCH] AI-recommended SMB target → 192.168.1.103
+[2025-05-12 14:43:19] [MATCH] AI-recommended SMB target → 192.168.1.102
+[2025-05-12 14:43:19] [MATCH] AI-recommended SMB target → 192.168.1.1
+[2025-05-15 08:29:37] [MATCH] AI-recommended SMB target → 192.168.1.101
+[2025-05-15 08:29:37] [MATCH] AI-recommended SMB target → 192.168.1.102
+[2025-05-15 08:29:37] [MATCH] AI-recommended SMB target → 192.168.1.103
+[2025-05-15 08:29:37] [MATCH] AI-recommended SMB target → 192.168.1.1
+[2025-05-21 06:20:08] [MATCH] AI-recommended SMB target → 192.168.1.103
+[2025-05-22 07:05:52] [MATCH] AI-recommended SMB target → 192.168.1.102
+[2025-05-22 19:57:20] [MATCH] AI-recommended SMB target → 192.168.1.102
+[2025-05-24 05:39:37] [MATCH] AI-recommended SMB target → 192.168.1.100
+[2025-05-24 05:44:27] [MATCH] AI-recommended SMB target → 192.168.1.100
+[2025-05-24 05:44:50] [MATCH] AI-recommended SMB target → 192.168.1.100
+[2025-05-24 05:45:23] [MATCH] AI-recommended SMB target → 192.168.1.100
+[2025-05-24 05:56:12] [MATCH] AI-recommended SMB target → 192.168.1.100
+[2025-05-24 13:16:48] [MATCH] AI-recommended SMB target → 192.168.1.100
+[2025-05-24 13:57:22] [MATCH] AI-recommended SMB target → 192.168.1.100
+[2025-05-24 14:58:20] [MATCH] AI-recommended SMB target → 192.168.1.100
+[2025-05-24 15:42:49] [MATCH] AI-recommended SMB target → 192.168.1.100

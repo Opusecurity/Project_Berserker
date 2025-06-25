@@ -1,0 +1,40 @@
+[2025-05-24 05:39:26] Starting: Brute-force Attacks
+[2025-05-24 05:39:29]     [~] Starting multi-protocol brute-force on 3 targets...
+[2025-05-24 05:39:29]     
+[2025-05-24 05:39:30]     [2025-05-24 05:39:30] [FTP-192.168.1.100] FTP → 192.168.1.100:21 | root:123456 → ❌ FAIL
+[2025-05-24 05:39:30]     [2025-05-24 05:39:30] [SSH-192.168.1.100] SSH → 192.168.1.100:22 | root:123456 → ❌ FAIL
+[2025-05-24 05:39:30]     [2025-05-24 05:39:30] [FTP-192.168.1.100] FTP → 192.168.1.100:21 | root:12345 → ❌ FAIL
+[2025-05-24 05:39:31]     [2025-05-24 05:39:31] [FTP-192.168.1.100] FTP → 192.168.1.100:21 | root:123456789 → ✅ SUCCESS 🎯
+[2025-05-24 05:39:31]     [2025-05-24 05:39:31] [SSH-192.168.1.100] SSH → 192.168.1.100:22 | root:12345 → ❌ FAIL
+[2025-05-24 05:39:32]     [2025-05-24 05:39:32] [SSH-192.168.1.100] SSH → 192.168.1.100:22 | root:123456789 → ✅ SUCCESS 🎯
+[2025-05-24 05:39:32]     [2025-05-24 05:39:32] [SMB-192.168.1.100] SMB → 192.168.1.100:445 | root:123456 → ❌ FAIL
+[2025-05-24 05:39:34]     [2025-05-24 05:39:34] [SMB-192.168.1.100] SMB → 192.168.1.100:445 | root:12345 → ❌ FAIL
+[2025-05-24 05:39:35]     [2025-05-24 05:39:35] [SMB-192.168.1.100] SMB → 192.168.1.100:445 | root:123456789 → ✅ SUCCESS 🎯
+[2025-05-24 05:39:35]     
+[2025-05-24 05:39:35]     [✓] Brute-force results saved to: data/results/brute_forces_2025_05_24_05_39.json
+[2025-05-24 05:39:35]     [✓] Total Attempts: 9 | Successful Logins: 3
+[2025-05-24 05:39:37] [✓] Completed: Brute-force Attacks in 11.74 sec
+[2025-05-24 05:39:37] Starting: SMB Share Enumeration
+[2025-05-24 05:39:37]     [~] [AI-MATCH] 192.168.1.100 → SMB ENUM target
+[2025-05-24 05:39:37]     [~] [DEBUG] Final AI-selected SMB targets: ['192.168.1.100']
+[2025-05-24 05:39:37]     [~] Enumerating SMB shares on 192.168.1.100 with root:123456789...
+[2025-05-24 05:39:38]     [✓] 192.168.1.100 - 5 share(s) found
+[2025-05-24 05:39:38]     [✓] Enumeration results saved to: data/enum/smb_enum_2025_05_24_05_39.json
+[2025-05-24 05:39:38] [✓] Completed: SMB Share Enumeration in 0.73 sec
+[2025-05-24 05:39:38] Starting: Web Application Attacks
+[2025-05-24 05:39:39]     [~] Starting web attack module...
+[2025-05-24 05:39:39]     [~] Using User-Agent: ProjectBerserkir
+[2025-05-24 05:39:39]     [~] SSL Verification: True
+[2025-05-24 05:39:39]     [~] Testing → http://192.168.1.100:80
+[2025-05-24 05:40:21] Starting: Brute-force Attacks
+[2025-05-24 05:40:21]     Traceback (most recent call last):
+[2025-05-24 05:40:21]     File "/home/kali/Desktop/Project Berserkir/core/brute_forces.py", line 10, in <module>
+[2025-05-24 05:40:21]     from smb.SMBConnection import SMBConnection
+[2025-05-24 05:40:21]     ModuleNotFoundError: No module named 'smb'
+[2025-05-24 05:40:22] [!] ERROR during Brute-force Attacks: Command 'python core/brute_forces.py --delay 0.5' returned non-zero exit status 1.
+[2025-05-24 05:40:58] Starting: Brute-force Attacks
+[2025-05-24 05:40:58]     Traceback (most recent call last):
+[2025-05-24 05:40:58]     File "/home/kali/Desktop/Project Berserkir/core/brute_forces.py", line 10, in <module>
+[2025-05-24 05:40:58]     from smb.SMBConnection import SMBConnection
+[2025-05-24 05:40:58]     ModuleNotFoundError: No module named 'smb'
+[2025-05-24 05:40:58] [!] ERROR during Brute-force Attacks: Command 'python core/brute_forces.py --delay 0.5' returned non-zero exit status 1.

